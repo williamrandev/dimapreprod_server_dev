@@ -1,0 +1,13 @@
+{shop_url}
+
+{no_reply_sentence_txt}
+
+Hello {firstname} {lastname},
+
+We have received your price quote request.
+
+Price quote posted on {date} :
+
+{details_html}
+
+[{shop_name}]({shop_url}) thank you for your trust.

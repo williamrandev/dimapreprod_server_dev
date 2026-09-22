@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <name>partenaires</name>
+    <displayName>Nos Partenaires</displayName>
+    <version>1.0.0</version>
+    <author>sahaza</author>
+    <description>watch the partenaires of logo and link</description>
+    <compatibility from="1.7.0.0" to="8.2.0"/>
+</module>

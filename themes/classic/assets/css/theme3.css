@@ -1,0 +1,71 @@
+@media (max-width: 990px) {
+    .DIMAKID-container .row .col-md-4 {
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+        margin-top: 20px;
+        display: block;
+        
+    }
+
+
+
+
+    .fabricant {
+        font-size: 1.3vw !important;
+    }
+    .logo-text {
+        font-size: 1.3vw !important;
+    }
+    
+    
+    .devis_rapide a, .commande_rapide a{
+        font-size: 1vw;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .DIMAKID-container .row .produit.col-md-6    {
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 990px) {
+    .DIMAKID-container .row .produit.col-md-6  {
+        margin-right: -15px !important;
+        margin-left: -15px !important;
+        margin-top: 20px;
+        display: block;
+        width: 90%;
+    }
+    .DIMAKID-container .row .produit.col-md-6 .row .col-md-4.col-sm-4 .img-container.livre .img-responsive{
+      width: 50%;
+      
+    }
+
+
+
+
+
+    
+
+    section#main section#content.page-content.page-cms-7 
+    div.row div.center-columns.col-md-12.col-xs-12 
+    div.row div.col-md-12 
+    div.DIMAKID-container 
+    div.row 
+    div.col-md-4 
+    div.banniere.dimakd 
+    div.img-container 
+    img.img-responsive {
+      display: none !important;
+    }
+    
+}
+

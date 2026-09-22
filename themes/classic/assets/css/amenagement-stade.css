@@ -1,0 +1,49 @@
+.sponso-container .img-container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.sponso-container .logo-container .img-responsive {
+	margin: auto;
+}
+
+.sponso-container .sponso-img .logo-container.premier {
+	vertical-align: middle;
+	width: 30%;
+	margin: 0 auto;
+}
+
+.sponso-container .sponso-img .logo-container.second {
+	-webkit-transform: translateY(25%);
+	-moz-transform: translateY(25%);
+	-ms-transform: translateY(25%);
+	-o-transform: translateY(25%);
+	transform: translateY(25%);
+	vertical-align: middle;
+	width: 43%;
+	margin: 0 auto;
+}
+
+.sponso-container .sponso-img .logo-container.third {
+	-webkit-transform: translateY(40%);
+	-moz-transform: translateY(40%);
+	-ms-transform: translateY(40%);
+	-o-transform: translateY(40%);
+	transform: translateY(40%);
+	vertical-align: middle;
+	width: 30%;
+	margin: 0 auto;
+}
+
+div.container-fluid #bs-example-navbar-collapse-1 .nav {
+    margin-bottom: 0;
+}
+
+html body#cms.lang-fr.country-fr.currency-eur.layout-full-width.page-cms.tax-display-enabled.cms-id-19 main section#wrapper div.container div.row div#content-wrapper.js-content-wrapper.col-xs-12 section#main section#content.page-content.page-cms.page-cms-19 div.row div.center-columns.col-md-12.col-xs-12 div.insta-nav div.container-fluid div#bs-example-navbar-collapse-1.collapse.navbar-collapse ul.nav.navbar-nav li.active a {
+    font-size: 14px;
+}
+
+.premier > img:nth-child(1) {
+    margin: auto;
+}
+

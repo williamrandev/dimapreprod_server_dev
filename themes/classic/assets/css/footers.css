@@ -1,0 +1,256 @@
+.new-floatbar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 340px;
+    width: 65px;
+}
+@media (max-width: 992px){
+    .new-floatbar{
+        display: none;
+    }
+}
+.ftel,
+.fhelp,
+.fchat,
+.fnotice,
+.fsearch,
+.ftel {
+  display: inline-block;
+  transition: margin-left 0.6s ease;
+}
+
+.ftel:hover,
+.fhelp:hover,
+.fchat:hover,
+.fnotice:hover,
+.fsearch:hover,
+.ftel:hover {
+  margin-left: -170px;
+}
+.fhelp{
+    background: #3f3f3f;
+    padding-right: 20px;
+    width: 300px;
+}
+.fchat{
+    background: #2265ab;
+    width: 300px;
+}
+.fnotice{
+    background: #d50c1c;
+    width: 300px;
+}
+.fsearch{
+    background: #182a34;
+    width: 300px;
+}
+.ftel{
+    background: #ff4401;
+    width: 300px;
+}
+.new-floatbar a{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin: 24px 0 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.new-floatbar a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.blockreassurance.col-sm-12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blockreassurance {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.blockreassurance .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1500px;
+}
+.blockreassurance .block-title {
+    width: 50%;
+    margin: 0 auto;
+}
+main footer#footer div.container-footer div.row div.blockreassurance div.blockreas{
+    margin-left: 1em;
+}
+main footer#footer div.container-footer div.row div.blockreassurance div.blockreas div.offset-md-3{
+    width: 9em;
+}
+main footer#footer div.container-footer div.row div.blockreassurance div.blockreas div.offset-md-0{
+    width: 9em;
+}
+.blockreassurance .col-md-3,
+.blockreassurance .col-sm-6,
+.blockreassurance .col-xs-12 {
+    text-align: center!important;
+    /* padding: 10px; */
+    margin-left: 0;
+}
+
+.blockreassurance .block-icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blockreassurance .block-title,
+.blockreassurance p {
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 800;
+    color: #2765ad !important;
+}
+
+.blockreassurance .block-icon img {
+    max-width: 100%; 
+    height: auto;
+}
+.reseaux{
+    display: flex;
+}
+#footer .footer-container{
+    padding-top: 1.1rem;
+}
+#footer .footer-container .bloc-texte-footer{
+    margin: 0;
+    padding: 15px;
+    width: 33%;
+}
+#footer .footer-container .container .row #contactinfos {
+    left: 20px;
+    margin-top: 18px;
+}
+#footer .footer-container .container .row .links {
+    top: 4em;
+}
+#footer .footer-container .container .row #contactinfos .collapse{
+    margin-top: -10px;
+}
+.footer-container .container .footerTexte .links .wrapper .collapse li{
+    text-transform: uppercase;
+}
+.footer-container .container .footerTexte .links .contactUrls{
+    margin-top: .5em;
+}
+/*-------------------------------------------------------------*/
+.container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#content-wrapper{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#search_filters, #search_filters_brands, #search_filters_suppliers{
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+#footer > div.footer-container > div > div.row.footerTexte > div.para1.block-social.resaux{
+    position: absolute;
+    justify-self: anchor-center;
+    left: 10px;
+}
+#footer > div.footer-container > div > div.row.footerTexte > div.para1.block-social.resaux > ul{
+    position: relative;
+    left: 40px;
+}
+#module-smartblog-category .page-content.card.card-block{
+    padding: 0 ;
+}
+
+
+/* =====================================================
+   MEDIA QUERY – MOBILE (max-width: 768px)
+   Zone : FOOTER
+   Contexte : utilisateur connecté ou non
+     ===================================================== */
+
+     @media screen and (min-width: 480px) and (max-width: 768px) {
+
+        /* Affichage des boutons précédent / suivant  du carousel de réassurance */
+        #footer>div.container-footer>div>div.blockreassurance.respoblock>#reassuranceCarousel>.custom-carousel-control.next,
+        #footer>div.container-footer>div>div.blockreassurance.respoblock>#reassuranceCarousel>.custom-carousel-control.prev {
+            background-color: white;
+            display: flex;
+        }
+    
+        /* Agrandissement de l’icône (chevron) du bouton "prev" */
+        #footer>div.container-footer>div>div.blockreassurance.respoblock>#reassuranceCarousel>button.custom-carousel-control.prev>span {
+            font-size: 60px;
+        }
+    
+        /* Forcer la largeur complète des blocs texte du footer */
+        #footer>div.footer-container>div>div.row.footerTexte,
+        #footer>div.footer-container>div {
+            width: 100%;
+        }
+    
+        #contactinfos>div.title.clearfix.hidden-md-up>span.h3 {
+            display: none !important;
+        }
+    
+        /* Masquage des  Boutons du carousel produits */
+        #footer>div.footer-container>#contactinfos>div.title.clearfix.hidden-md-up,
+        #produits-dima>div>button.prev,
+        #produits-dima>div>button.next {
+            display: none;
+        }
+    
+        /* Ajustement de l’affichage des réseaux sociaux :  - Alignement horizontal  - Suppression de la marge droite */
+        #footer>div.footer-container>div>div.row.footerTexte>div.para1.block-social.resaux {
+            margin-right: 0;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            /* padding-left: 35px; */
+            padding-top: 15px;
+        }
+        #footer .footer-container .container .row #contactinfos .collapse{
+            /* padding-left: 35px; */
+            width: 100% ;
+            margin-top : 0px ;
+            margin-bottom: 10px ; 
+        }
+        #footer .footer-container .container .row{
+            padding-top: 0px;
+        }
+
+        #footer .footer-container .container .row #contactinfos{
+            left: 0px;
+        }
+        #footer > div.footer-container > div > div.row.footerTexte > div.col-md-6.links{
+
+            /* padding-left: 25px; */
+        }
+        #footer >.footer-container .container .footerTexte .links .wrapper .collapse li{
+            font-family: helvetica, sans-serif;
+
+            font-size: 11px !important;
+            padding-bottom: 5px;
+            font-family: helvetica, sans-serif;
+            padding-top: 0px;
+ 
+        }
+        #footer .footer-container .container .row .links .row .wrapper:nth-of-type(4){
+            bottom: 0px;
+        }
+        
+    }
+    
+    /* ===== FIN MEDIA QUERY MOBILE ===== */

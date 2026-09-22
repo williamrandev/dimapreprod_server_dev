@@ -1,0 +1,811 @@
+.breadcrumb{
+    text-align: center;
+    padding: 0 11px;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px !important;
+    line-height: 24px;
+    background: #fff !important;
+    min-height: 6px;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 16px !important;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.breadcrumb ol li a{
+    display: inline-block;
+    background: #fff;
+    padding: 0 15px 0 15px;
+    margin-left: 12px;
+    position: relative;
+    z-index: 2;
+    text-transform: uppercase;
+    /* font-family:"Oswald",sans-serif!important; */
+    font-weight: 400 !important;
+    font-size: 12px;
+    color: #686868;
+}
+
+.breadcrumb ol li a::after{
+    display: inline-block;
+    content: ".";
+    position: absolute;
+    right: -7px;
+    top: 7px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border-right: 2px solid #686868;
+    border-top: 2px solid #686868;
+    border-radius: 2px;
+    text-indent: -5000px;
+    z-index: -1;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+/* *, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} */
+
+#js-product-list{
+    position: relative;
+    left: 27.5em !important;
+    width: 70.7%;
+    margin-bottom: 1em;
+    top: -3em;
+}
+
+#left-column{
+  position: absolute;
+    margin-top: 11% !important;
+    z-index: 99;
+    width: 435px;
+    padding-left: 0;
+}
+
+#content-wrapper{
+    width: 100%;
+    background-color: #e9e9e9;
+}
+#js-product-list-top.products-selection{
+    margin-bottom: 0;
+    display: none;
+}
+
+
+.container .row #content-wrapper #main #js-product-list-header{
+    display: flex;
+  
+}
+.container .row #content-wrapper #main #js-product-list-header .card-block {
+    width: 50%;
+    padding: 0;
+
+}
+
+.brands-sort .select-title, .products-sort-order .select-title, .suppliers-sort .select-title{
+    padding: 5px !important;
+}
+section#products div#js-product-list div div.row.sort-by-row div.dropdown button.select-title i.material-icons{
+    border: 1px solid #a7a7a7;
+    color: #a7a7a7;
+    font-weight: 900;
+}
+section#main div#js-product-list-header div.block-category div.block-category-inner div.category-cover{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0;
+    max-height: 11.5em;
+    overflow: hidden;
+}
+section#main div#js-product-list-header div.block-category div.block-category-inner div#category-description{
+    width: 49%;
+    background: #fff !important;
+    /* color: #000; */
+    padding: 12px 30px;
+    max-height: 184px !important;
+    overflow-y: auto;
+    position: relative;
+    /* width: 50% !important; */
+    font-family: "Oswald", sans-serif !important;
+}
+.descriptionCategirie{
+    background: #fff !important;
+    color: #000;
+    padding: 12px 30px;
+    max-height: 184px !important;
+    overflow-y: auto;
+    position: relative;
+    width: 50% !important;
+}
+
+#js-product-list{
+    background-color: #fff;
+}
+
+#Categorie_tittle{
+    font-family: 'Oswald', sans-serif;
+    color: #d5292f;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#Categorie_tittle h1{
+    color: #d5292f;
+    font-weight: 800;
+    font-size: 26px !important;
+    font-family: 'Oswald', sans-serif !important;
+    display: block !important;
+    margin: 8px 0 16px 0 !important;
+    line-height: 1.3 !important;
+}
+
+.thumbnail-container{
+    height: 420px !important;
+    width: 100% !important;
+    padding: 0;
+    position: relative !important;
+    border: 2px solid #e9e9e9;
+}
+
+.ProductName h2 a{
+    color: #2765ad !important; 
+    font-size: 19px;
+}
+
+.product-description {
+    /* display: flex; */
+    justify-content: center;
+
+}
+.LittleDescription{
+    padding-right: 5px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#js-product-list .sort-by-row {
+    /* margin-bottom: 3em; */
+    width: 33%;
+    position: relative;
+    left: 43em;
+    top: 1.5em;
+    display: flex;
+}
+
+#js-product-list .sort-by-row .sort-by{
+    left: 2em;
+    position: relative;
+    padding: 12px 11px 12px 8px;
+    font-size: 16px;
+    color: #717171;
+    font-family: "Oswald", sans-serif;
+    height: 45px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#js-product-list .products {
+    margin-left: 0em;
+    width: 64.em;
+    padding-top: 1em;
+    /* border-top: 1px solid #d5d1d1; */
+}
+#js-product-list .dropdown{
+    cursor: pointer;
+    color: #232323;
+    width: 100%;
+    display: inline-block;
+}
+
+.category-top-menu .category-sub-menu li[data-depth="0"]>a {
+    font-weight: bold;
+    color: #2765ad;
+    display: block;
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 30px 0 19px;
+    margin: 0;
+
+}
+.product-flags{
+    display: none !important;
+}
+/* Conteneur des images - Structure de base */
+.product-images-container {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  
+  /* Image principale - Toujours visible par défaut */
+  .main-image {
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Deuxième image - Cachée par défaut */
+  .second-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Effet de survol UNIQUEMENT si :
+     1) La miniature a la classe .has-second-image (ajoutée par JS/Smarty)
+     2) ET qu'elle contient effectivement une .second-image */
+  .product-thumbnail.has-second-image:hover .main-image,
+  .product-thumbnail.has-second-image:hover .main-image img {
+    opacity: 0;
+  }
+  
+  .product-thumbnail.has-second-image:hover .second-image,
+  .product-thumbnail.has-second-image:hover .second-image img {
+    opacity: 1;
+  }
+  
+  /* Désactive l'effet de survol par défaut (sécurité) */
+  .product-thumbnail:hover .main-image:not(.has-second-image),
+  .product-thumbnail:hover .second-image:not(.has-second-image) {
+    opacity: inherit !important;
+  }
+.collapse-icons{
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    color: #2765ad;
+    line-height: 30px;
+    text-align: center;
+}
+
+.block-categories .category-top-menu .text-uppercase{
+    display: none;
+}
+
+#js-product-list-header   .descriptionCategirie{
+    max-width: 50% !important;
+    height: 11em !important;
+}
+.block-categories .collapse-icons{
+    padding: 0;
+    cursor: pointer;
+    background: #f6f6f6;
+}
+.TitleDS{
+    font-size: 22px !important;
+    text-align: left !important;
+    padding-bottom: 8px !important;
+    color: #2765ad;
+    text-transform: none;
+    font-weight: normal;
+}
+.DimaEqui{
+    color: #000     !important;
+    font-weight: bold !important;
+}
+.block-categories .category-sub-menu .category-sub-link{
+    font-weight: bold;
+    color: #333;
+    /* display: block; */
+    font-size: 13px;
+    line-height: 30px;
+    padding: 0 30px 0 19px;
+    margin: 0;
+}
+.subcategories-list{
+    display: none !important;
+}
+div#category-description p span{
+    color: #000 !important;
+    font: inherit !important;
+}
+
+#content-wrapper #main #subcategories{
+    display: none !important;
+}
+
+#js-product-list nav.pagination div.col-md-6.offset-md-2.pr-0 ul.page-list.clearfix.text-sm-center li a.previous.js-search-link {
+    color: #777676 !important;
+    font-weight: bold !important;
+    position: absolute !important;
+    right: 25em;
+    display: contents;
+}
+div.container div.row div#content-wrapper section#main section#products div#js-product-list div div nav.pagination{
+    padding-top: 2em;
+    display: grid;
+}
+#js-product-list nav.pagination div.col-md-6.offset-md-2.pr-0 ul.page-list.clearfix.text-sm-center li a.next.js-search-link {
+    color: #777676;
+    font-weight: bold;
+    font-size: 1em !important;
+    padding: 0px;
+    font-size: 18px;
+    z-index: 10;
+    border-radius: 0px;
+    transition: none;
+    width: none;
+    position: absolute !important;
+    top: 1.3em;
+    display: contents;
+
+}
+
+#js-product-list nav.pagination div.col-md-6.offset-md-2.pr-0 ul.page-list.clearfix.text-sm-center li a:not([rel="prev"]):not([rel="next"]){
+    margin: 0 1px 0 0px;
+    padding: 0;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: #dfdede #d2d0d0 #b0afaf #d2d0d0;
+    display: inline-block;
+    padding: 0;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: #dfdede #d2d0d0 #b0afaf #d2d0d0;
+    display: inline-block;
+    width: 2.5em;
+}
+
+.pagination .current a {
+    font-size: 1em !important;
+    color:  #777676 !important;
+    text-decoration: none !important;
+}
+
+.product-miniature .product-description{
+    display: flex;
+}
+
+nav.pagination div.col-md-4{
+    padding-left: 3em;
+    font-family: "Open Sans", sans-serif;
+}
+
+#category .pagination{
+    border-top: 1px solid #d6d4d4;
+}
+
+.col-xs-8.col-sm-7.col-md-9.products-sort-order.dropdown button.btn-unstyle.select-title{
+    height: 36px;
+    margin-top: .2em;
+    padding-top: .5em;
+    background-color:#f9f9f9;
+}
+
+div.col-xs-8.col-sm-7.col-md-9.products-sort-order.dropdown button.btn-unstyle.select-title i.material-icons.float-xs-right{
+    background: #ffffff;
+    border: solid 1px;
+    font-weight: 700;
+    margin-top: -3px;
+    position: absolute;
+    /*left: 8em;*/
+}
+
+div.dropdown-menu a.select-list.js-search-link{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.625rem 1.25rem;
+    color: #232323;
+}
+
+article.product-miniature.js-product-miniature div.thumbnail-container form.AddPanier div button.btn.btn-primary {
+    border: none !important;
+    background-color: white !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #d5292f;
+    padding: 0 !important;
+    border: 1px solid;
+    float: right;
+    position: relative;
+    z-index: 9;
+}
+
+.product-miniature .product-title a{
+    font-size: 17px !important;
+}
+.product-miniature .product-title{
+    margin-left: 0px;
+}
+.highlighted-informations{
+    display: none;
+}
+
+section#main section#products div#js-product-list-top div.col-lg-7 div.row.sort-by-row{
+    display: none;
+}
+
+section#main section#products div.hidden-sm-down{
+    display: none;
+}
+
+
+/*  categorytree customization  START --------------------------  */
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("FontAwesome.ttf") format("truetype"),
+		url("FontAwesome.ttf") format("truetype");
+}
+
+#left-column .block-categories {
+	padding: 0;
+}
+#left-column .block-categories .category-sub-menu li a{
+    text-transform: uppercase;
+}
+#left-column .block-categories .category-sub-menu {
+    margin-top: 0;
+}
+#left-column .block-categories .category-sub-menu li {
+    margin-bottom: 0;
+}
+#left-column .block-categories .category-sub-menu li[data-depth="0"]>a {
+	font-weight: bold;
+	color: #2765ad !important;
+	display: block;
+	font-size: 13px;
+	line-height: 30px;
+	padding: 0 30px 0 19px;
+	margin: 0;
+}
+
+#left-column .block-categories .category-sub-menu li[data-depth="1"]>a {
+	font-weight: bold;
+	color: #333;
+	display: block;
+	font-size: 13px;
+	line-height: 30px;
+	padding: 0 30px 0 19px;
+	margin: 0;
+}
+
+#left-column .block-categories .collapse-icons {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0;
+	cursor: pointer;
+	background: #f6f6f6;
+}
+
+#left-column .block-categories .category-sub-menu li:hover+a,
+#left-column .block-categories .category-sub-menu li a:hover {
+	background: #f6f6f6;
+}
+
+#left-column .block-categories .category-sub-menu .category-sub-link {
+	font-weight: normal;
+	color: #777777;
+    margin-left: 15px;
+    font-size: 0.0.785rem;
+}
+
+.fa-chevron-right:before {
+	content: "\f105";
+	font-family: "FontAwesome";
+	line-height: 29px;
+	padding-right: 8px;
+	margin-left: 9px;
+	font-weight: bold;
+}
+
+.add {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	color: #2765ad;
+	line-height: 30px;
+	text-align: center;
+}
+
+#left-column .block-categories .collapse-icons[aria-expanded="true"] .remove {
+	position: relative;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	color: #2765ad;
+	line-height: 30px;
+	text-align: center;
+}
+#left-column .block-categories .category-top-menu .category-sub-menu .navbar-toggler {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+#left-column .block-categories .category-top-menu .category-sub-menu .arrows {
+    float: right;
+    margin-top: -20px;
+}
+#left-column .block-categories .category-sub-menu li:not([data-depth="0"]):not([data-depth="1"])::before {
+    display: none;
+}
+#left-column .block-categories .material-icons {
+    font-size: 19px;
+    font-weight: 900;
+}
+#left-column .block-categories .category-sub-menu .category-sub-link i.fa-chevron-right {
+    font-style: normal;
+}
+/*  categorytree customization  START --------------------------  */
+
+section#main section#products div#js-product-list div div nav.pagination div.col-md-6.offset-md-2.pr-0{
+    float: left;
+    /*right: 17em;*/
+    right: 10em;
+    display: none;
+
+}
+#js-product-list > div:nth-child(2) > div > nav > div.col-md-4{
+    display: none;
+}
+section#main section#products div#js-product-list nav.pagination div.col-md-6.offset-md-2.pr-0{
+    float: left;
+    right: 17em;
+}
+
+div.dropdown.open div.dropdown-menu{
+    width: 88%;
+    font-size: 13px;
+    color: #9c9b9b;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #d6d4d4;
+}
+
+div.dropdown.open div.dropdown-menu a{
+    color: #9c9b9b;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc !important;
+}
+.afficherTout{
+    position: relative;
+    right: 1em;
+    top: .5em;
+   
+}
+.afficherTout button{
+    width: 10em;
+    margin-bottom: 0 !important;
+    font-size: 13px !important;
+    font-weight: 500 !important ;
+    line-height: 1.42857 !important;
+    border-radius: 0px !important;
+    background-color: #ececec !important ;
+    border-color: #cacaca #b7b7b7 #9a9a9a #b7b7b7;
+   
+}
+
+section#main section#products div#js-product-list nav.pagination div.afficherTout{
+   display: none;
+}
+section#main section#products div#js-product-list div div nav.pagination div.afficherTout{
+    display: inline-block;
+ }
+.btn {
+    padding: 6px 12px !important;
+    /* margin-bottom: 8px !important; */
+    font-size: 13px !important;
+    font-weight: normal ;
+    line-height: 1.42857 !important;
+    border-radius: 0px !important;
+}
+#search_filters, #search_filters_brands, #search_filters_suppliers {
+    margin-top: 20px;
+}
+#category-description.text-muted,
+#category-description.text-muted p,
+#category-description.text-muted div,
+#category-description.text-muted span,
+#category-description.text-muted strong{
+    font-size: 13px!important;
+    color: #000!important;
+}
+#search_filters p.text-uppercase.h6.hidden-sm-down{
+    display: none;
+}
+#category-description.text-muted h2{
+    color: #2765ad;
+    font-weight: normal;
+    text-transform: none;
+    font-size: 27px;
+}
+#imgajoutpanier{
+    margin-bottom: 9px;
+}
+#js-product-list .page-list  a.js-search-link{
+    height: 28px;
+    width: 30px!important;
+    padding-top: 2px!important;
+}
+#js-product-list .products-sort-order.dropdown button.btn-unstyle.select-title{
+    margin-bottom: 18px;
+}
+#left-column .block-categories{
+    margin-top: 40px;
+}
+#js-product-list-footer .card-block.category-additional-description{
+    display: none;
+}
+
+/* Style spécifique pour le "Lire la suite" en bas de page */
+#js-product-list-footer #seo-content-texte {
+    max-height: 150px; /* Limite à environ 8-10 lignes */
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#js-product-list-footer #seo-content-texte.open {
+    max-height: 5000px;
+}
+
+#js-product-list-footer #seo-toggle-texte {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#js-product-list-footer #seo-toggle-texte i {
+    font-size: 40px;
+    color: #d5292f;
+    transition: transform 0.3s ease;
+}
+
+#js-product-list-footer #seo-toggle-texte.open i {
+    transform: rotate(180deg);
+}
+
+#left-column .card .card-block.category-additional-description{
+    background-color: #fff;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px!important;
+}
+#left-column .card .card-block.category-additional-description p{
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px!important;
+}
+#search_filters > .h6 {
+    font: 600 18px / 22px "Open Sans", sans-serif;
+    color: #555454;
+    text-transform: uppercase;
+    padding: 23px 5px 0px 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+
+/*-----------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px){
+.breadcrumb{
+
+        width: 104%!important;
+    margin-left: -15PX!important;
+}
+      
+/* Assurer que le conteneur du titre laisse de la place */
+#Categorie_tittle {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px; /* Espace entre le titre et les filtres */
+    overflow: hidden;    /* Pour contenir les marges internes */
+    clear: both;         /* Sécurité contre les éléments flottants */
+}
+
+#Categorie_tittle h1 {
+    margin: 10px 0;      /* Ajustez selon vos besoins */
+    line-height: normal;
+}
+
+/* Correction du problème de chevauchement sur la liste de produits */
+#js-product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* IMPORTANT : Votre code actuel a un position: absolute sur .product-description */
+/* C'est TRÈS risqué. Si la description est trop longue, elle cache tout. */
+/* Remplacez le position: absolute par un flexbox */
+.product-description {
+    position: relative !important; /* On annule l'absolute qui cause le cache-cache */
+    margin-top: auto;
+    width: 100%;
+}
+
+
+
+/* 1. Aligner le bloc de tri à droite du titre de la catégorie */
+#js-product-list .sort-by-row {
+    display: flex;
+    justify-content: flex-end; /* Pousse tout vers la droite */
+    align-items: center;      /* Aligne verticalement le texte et le bouton */
+    width: 100%;              /* Prend toute la largeur disponible */
+    margin-bottom: 20px;
+    position: static;         /* On annule le relative/absolute */
+}
+
+/* 2. Style du texte "Trier par :" */
+#js-product-list .sort-by {
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* 3. Style du bouton de sélection */
+#js-product-list .products-sort-order {
+    width: auto;             /* Le bouton ne doit pas faire 100% */
+    min-width: 150px;
+}
+
+#js-product-list .select-title {
+    border: 1px solid #d6d4d4;
+    padding: 5px 15px;
+    background: #fff;
+    width: 126%;
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 4. Correction du Menu Déroulant (Dropdown) */
+/* Pour qu'il s'affiche juste en dessous du bouton et pas n'importe où */
+div.dropdown.open div.dropdown-menu {
+    position: absolute;
+    top: 100%;               /* Juste en dessous du bouton */
+    right: 0;                /* Aligné sur le bord droit */
+    width: 100%;
+    min-width: 139px;
+    z-index: 999;            /* Pour passer au-dessus des images produits */
+    display: block;          /* Force l'affichage quand 'open' est présent */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+    .col-xs-8.col-sm-7.col-md-9.products-sort-order.dropdown button.btn-unstyle.select-title {
+        margin-left: -1em!important;
+
+}
+#js-product-list .products-sort-order.dropdown button.btn-unstyle.select-title {
+    margin-bottom: 0px!important;
+}
+    #js-product-list .sort-by-row .sort-by {
+        TOP: 16PX!important;
+        left: 1em!important;
+        height: 76px!important;
+    }
+
+}
+
+#add-to-cart-or-refresh > div.product-additional-info.js-product-additional-info > div.tabs > div > button {
+    margin-left: 200px !important;
+    margin-bottom: 15px !important;
+}

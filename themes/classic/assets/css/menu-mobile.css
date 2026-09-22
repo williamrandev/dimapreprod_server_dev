@@ -1,0 +1,779 @@
+#menu-icon-mobile,
+#mobile_menu_custom,
+#gray_background{
+    display: none;
+}
+
+@media (max-width: 768px){
+    #custom_category-132 > a::before {
+        content: "";
+        display: Flex;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto_bleu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-216 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/dimakid-motricite-et-eveil.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    /* #custom_category-293 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sport-sante-reeducation.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    } */
+    #custom_category-259 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto_dimafit-equipement-fitness.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-125 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/athletisme.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-90 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/gymnastique.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-252 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/cirque_picto.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-253 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/escalade.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-246 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sports-de-combat.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-254 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sport-de-raquette.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-100 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/937fde8c64-le-sur-mesure.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-83 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto-danger-bonnes-affaires.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #mobile_menu_custom{
+        display: block;
+    }
+    .custom-menu-list{
+        text-align: center;
+    }
+    .custom-menu-list.custom_sub_menu_0>li{
+        padding: 12px 15px;
+        width: 100%;
+        border-top: 1px solid #DDDDDD;
+    }
+    .custom-menu-list.custom_sub_menu_0>li:first-child:after{
+        content: "\f015";
+        display: inline-block;
+        font: normal normal normal 14px / 1 FontAwesome;
+        font-size: 15px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-right: 4px;
+        position: absolute;
+        display: flex;
+        left: 0;
+        margin-left: 50px;
+        top: 61px;
+        color: #4e4848;
+    }
+    .custom_sub_menu_0 a.custom-dropdown-item {
+        color: #484848 !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px;
+        font-size: 14px !important;
+        display: none;
+    }
+    #menu-icon-mobile{
+        position: relative;
+        z-index: 9;
+        display: block;
+        cursor: pointer;
+        padding: 11px;
+        width: 100%;
+        border-bottom: 10px solid white;
+        color: black;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        display: none;
+    }
+    .custom_sub_menu_0 > li.custom-category:before {
+        content: "+";
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+      
+    .custom_sub_menu_0 > li.custom-category.opening:before {
+        content: "-";
+        cursor: pointer;
+        font-size: 35px;
+    }
+    #custom_menu_wrapper{
+        background-color: #f6f6f6 !important;
+    }
+    .close_menu_mobile{
+        cursor: pointer;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 20px !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 13px 15px;
+        color: white;
+    }
+    #mobile_menu_custom {
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 100%;
+        background-color: #f6f6f6;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 9999;
+    }
+    #gray_background {
+        background-color: rgba(0, 0, 0, 0.4);
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    #mobile_menu_custom.open {
+        transform: translateX(0);
+    }
+    .new_submenu_custom_mobile{
+        position: relative;
+    }
+    .custom-menu-list.container.custom_sub_menu_0{
+        padding: 0;
+    }
+    .new_submenu_custom_mobile {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: -2px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .new_submenu_custom_mobile.open-submenu {
+        border-top: 1px solid #ddd;
+    }
+    .custom-menu-list.custom_sub_menu_0>li:first-child{
+        padding: 12px 0 0 0;
+    }
+    .custom_sub_menu_1{
+        text-align: left;
+    }
+    .custom_sub_menu_1 > li {
+        padding: 9px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .custom_sub_menu_1 > li:last-child {
+        padding: 9px 0;
+        border-bottom: none;
+    }
+    .custom_sub_menu_1 a.custom-dropdown-item {
+        color: #777 !important;
+        font-weight: 400 !important;
+    }
+    .custom-menu-list.container{
+        padding: 0;
+    }
+    .custom_sub_menu_1 > li:before {
+        border-right: 1px solid #999;
+        border-top: 1px solid #999;
+        content: "";
+        height: 6px;
+        position: absolute;
+        right: 10px;
+        margin-top: 8px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all 0.35s;
+        -webkit-transition: all 0.35s;
+        width: 6px;
+    }
+
+    .custom_sub_menu_3{
+        display: none;
+        text-align: left;
+        padding-left: 30px !important;
+    }
+    .custom_sub_menu_1 > li:before {
+        border-right: 1px solid #999;
+        border-top: 1px solid #999;
+        content: "";
+        height: 6px;
+        width: 6px;
+        position: absolute;
+        right: 10px;
+        margin-top: 8px;
+        transform: rotate(45deg);
+        transition: all 0.35s;
+    }
+    
+    .custom_sub_menu_1 > li.opening:before {
+        transform: rotate(135deg);
+    }
+    
+    .collapse_custom_1 {
+        display: none;
+    }
+    
+    .collapse_custom_1.open {
+        display: block;
+        background-color: #f6f6f6;
+        margin-top: 9px;
+        border-top: 1px solid #ddd;
+    }
+    .custom-menu-list.container.custom_sub_menu_2{
+        text-align: left;
+    }
+    .custom-menu-list.container.custom_sub_menu_2 > li{
+        padding: 7px 27px;
+    }
+    .custom-menu-list.container.custom_sub_menu_1 > li.opening{
+        padding-bottom: 0;
+    }
+    .custom-menu-list.container.custom_sub_menu_2 li.has-collapse_custom::before {
+        content: '+';
+        font-weight: 400;
+        margin-left: 8px;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        font-size: 22px;
+        margin-top: -5px;
+    }
+    .custom_sub_menu_2 li.has-collapse_custom.open::before {
+        content: "-";
+    }
+    .custom_sub_menu_2 li.has-collapse_custom.open >a {
+        color: #ec4249 !important;
+    }
+    .custom_sub_menu_3 li {
+        padding: 7px 0;
+    }
+}
+
+
+
+/*----------------*/
+
+/* ============================================================
+   FORÇAGE DU MENU MOBILE SUR TABLETTE (768px - 991px)
+   ============================================================ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* 1. On affiche le bouton "MENU" qui est normalement caché sur desktop */
+    #menu-icon-mobile {
+        display: block !important;
+        visibility: visible !important;
+        cursor: pointer;
+        background: #f6f6f6;
+        padding: 15px;
+        text-align: left;
+        border-bottom: 2px solid #ddd;
+    } 
+
+/* 2. On cache le menu horizontal classique (desktop) pour éviter les doublons */
+    #_desktop_top_menu {
+        display: none !important;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#custom_category-132 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto_bleu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-216 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/dimakid-motricite-et-eveil.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    /* #custom_category-293 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sport-sante-reeducation.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    } */
+    #custom_category-259 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto_dimafit-equipement-fitness.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-125 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/athletisme.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-90 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/gymnastique.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-252 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/cirque_picto.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-253 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/escalade.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-246 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sports-de-combat.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-254 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/sport-de-raquette.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-100 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/937fde8c64-le-sur-mesure.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #custom_category-83 > a::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background-image: url(../img/picto-danger-bonnes-affaires.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 5px;
+        vertical-align: middle;
+        margin-left: 7px;
+    }
+    #mobile_menu_custom{
+        display: block;
+    }
+    .custom-menu-list{
+        text-align: center;
+    }
+    .custom-menu-list.custom_sub_menu_0>li{
+        padding: 12px 15px;
+        width: 100%;
+        border-top: 1px solid #DDDDDD;
+    }
+    .custom-menu-list.custom_sub_menu_0>li:first-child:after{
+        content: "\f015";
+        display: inline-block;
+        font: normal normal normal 14px / 1 FontAwesome;
+        font-size: 15px;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-right: 4px;
+        position: absolute;
+        display: flex;
+        left: 0;
+        margin-left: 50px;
+        top: 61px;
+        color: #4e4848;
+    }
+    .custom_sub_menu_0 a.custom-dropdown-item {
+        color: #484848 !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px;
+        font-size: 14px !important;
+    }
+    #menu-icon-mobile{
+        position: relative;
+        z-index: 9;
+        display: block;
+        cursor: pointer;
+        padding: 11px;
+        width: 100%;
+        border-bottom: 10px solid white;
+        color: black;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    .custom_sub_menu_0 > li.custom-category:before {
+        content: "+";
+        position: absolute;
+        right: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+      
+    .custom_sub_menu_0 > li.custom-category.opening:before {
+        content: "-";
+        cursor: pointer;
+        font-size: 35px;
+    }
+    #custom_menu_wrapper{
+        background-color: #f6f6f6 !important;
+    }
+    .close_menu_mobile{
+        cursor: pointer;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        font-size: 20px !important;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 13px 15px;
+        color: white;
+    }
+    #mobile_menu_custom {
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        width: 380px;
+        height: 100%;
+        background-color: #f6f6f6;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 9999;
+    }
+    #gray_background {
+        background-color: rgba(0, 0, 0, 0.4);
+        bottom: 0;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        z-index: 9;
+    }
+    #mobile_menu_custom.open {
+        transform: translateX(0);
+    }
+    .new_submenu_custom_mobile{
+        position: relative;
+    }
+    .custom-menu-list.container.custom_sub_menu_0{
+        padding: 0;
+    }
+    .new_submenu_custom_mobile {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: -2px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .new_submenu_custom_mobile.open-submenu {
+        border-top: 1px solid #ddd;
+    }
+    .custom-menu-list.custom_sub_menu_0>li:first-child{
+        padding: 12px 0 0 0;
+    }
+    .custom_sub_menu_1{
+        text-align: left;
+    }
+    .custom_sub_menu_1 > li {
+        padding: 9px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .custom_sub_menu_1 > li:last-child {
+        padding: 9px 0;
+        border-bottom: none;
+    }
+    .custom_sub_menu_1 a.custom-dropdown-item {
+        color: #777 !important;
+        font-weight: 400 !important;
+    }
+    .custom-menu-list.container{
+        padding: 0;
+    }
+    .custom_sub_menu_1 > li:before {
+        border-right: 1px solid #999;
+        border-top: 1px solid #999;
+        content: "";
+        height: 6px;
+        position: absolute;
+        right: 10px;
+        margin-top: 8px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: all 0.35s;
+        -webkit-transition: all 0.35s;
+        width: 6px;
+    }
+
+    .custom_sub_menu_3{
+        display: none;
+        text-align: left;
+        padding-left: 30px !important;
+    }
+    .custom_sub_menu_1 > li:before {
+        border-right: 1px solid #999;
+        border-top: 1px solid #999;
+        content: "";
+        height: 6px;
+        width: 6px;
+        position: absolute;
+        right: 10px;
+        margin-top: 8px;
+        transform: rotate(45deg);
+        transition: all 0.35s;
+    }
+    
+    .custom_sub_menu_1 > li.opening:before {
+        transform: rotate(135deg);
+    }
+    
+    .collapse_custom_1 {
+        display: none;
+    }
+    
+    .collapse_custom_1.open {
+        display: block;
+        background-color: #f6f6f6;
+        margin-top: 9px;
+        border-top: 1px solid #ddd;
+    }
+    .custom-menu-list.container.custom_sub_menu_2{
+        text-align: left;
+    }
+    .custom-menu-list.container.custom_sub_menu_2 > li{
+        padding: 7px 27px;
+    }
+    .custom-menu-list.container.custom_sub_menu_1 > li.opening{
+        padding-bottom: 0;
+    }
+    .custom-menu-list.container.custom_sub_menu_2 li.has-collapse_custom::before {
+        content: '+';
+        font-weight: 400;
+        margin-left: 8px;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+        font-size: 22px;
+        margin-top: -5px;
+    }
+    .custom_sub_menu_2 li.has-collapse_custom.open::before {
+        content: "-";
+    }
+    .custom_sub_menu_2 li.has-collapse_custom.open >a {
+        color: #ec4249 !important;
+    }
+    .custom_sub_menu_3 li {
+        padding: 7px 0;
+    }
+
+
+} 

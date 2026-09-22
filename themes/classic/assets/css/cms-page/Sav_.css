@@ -1,0 +1,658 @@
+.page-content.page-cms.page-cms-8,
+.page-content.page-cms.page-cms-16,
+.page-content.page-cms.page-cms-14,
+.page-content.page-cms.page-cms-58,
+.page-content.page-cms.page-cms-12,
+.page-content.page-cms.page-cms-15,
+.page-content.page-cms.page-cms-11,
+.page-content.page-cms.page-cms-16,
+.page-content.page-cms.page-cms-2 {
+
+    background-color: transparent;
+}
+
+.cms-id-12 .footer-container,
+.cms-id-12 .footer-container,
+.cms-id-11 .footer-container,
+.cms-id-23 .footer-container {
+    background-color: #fff;
+    margin-top: 0 !important;
+    padding-bottom: 30px;
+}
+
+#prefooter-mobile {
+    display: none;
+
+}
+
+.page-cms-8 .footer-container .pre-footer img,
+.page-cms-12 .footer-container .pre-footer img,
+.page-cms-11 .footer-container .pre-footer img,
+.page-cms-23 .footer-container .pre-footer img {
+    margin: 50px auto 20px !important;
+}
+
+.cms-id-12 .sav-container,
+.cms-id-12 .moyen-paiment-container,
+.page-cms-23 .conseil-expert-container {
+    margin-top: 20px !important;
+    background-color: #fff;
+    padding: 10px 25px;
+}
+
+.page-cms-8 .rte .sav-container h2,
+.page-cms-12 .moyen-paiment-container h2,
+.page-cms-23 .conseil-expert-container h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left !important;
+    color: #2765ad;
+}
+
+.page-cms-8 .center_column .sav-container p,
+.page-cms-12 .moyen-paiment-container p,
+.page-cms-23 .conseil-expert-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    font-size: 13px;
+
+}
+
+.page-cms-12 .moyen-paiment-container p {
+    margin-bottom: 15px;
+}
+
+.page-cms-8 .sav-container h3 {
+    color: #2765ad;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 0 !important;
+    text-transform: none;
+
+}
+
+.sav-container .button-contact {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    background-color: #2765ad;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.page-cms-8 .sav-container .button-container {
+    margin: 30px 0px;
+}
+
+#main .page-header {
+    margin-bottom: 0 !important;
+}
+
+.page-content.page-cms.page-cms-8 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.page-cms-16 .catalogues-issuu {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.page-cms-16 .catalogues-issuu .lientel {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    background: #2765ad;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.cgv-container {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.cgv-container p {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+    text-align: justify;
+    color: #777 !important;
+}
+
+.page-cms-14 .cgv-container h2,
+.page-cms-58 .cgv-container h2,
+.page-cms-2 .cgv-container h2,
+.page-cms-11 .livraison-container h2 {
+    font-family: oswald !important;
+    font-size: 38px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.page-cms-14 .cgv-container h3,
+.page-cms-2 .cgv-container h3 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+    color: #2765ad;
+    text-align: left;
+    margin: 18px 0px 0px !important;
+    text-transform: none;
+    font-style: italic;
+}
+
+.page-cms-14 .cgv-container p.etapes {
+    font-weight: bold;
+}
+
+.page-cms-14 .cgv-container li {
+    font-size: 13px;
+    margin: 0px 0px 9px 40px;
+}
+
+.page-cms-14 .frais-port-container table {
+    text-align: left;
+    margin: 25px auto;
+    color: #777;
+
+}
+
+.page-cms-14 .frais-port-container table thead tr {
+    background-color: #dddddd;
+    font-size: 13px;
+}
+
+.page-cms-14 .frais-port-container table td,
+.page-cms-11 .tarifs-livraison-container .tableau-france table td {
+    border: 1px solid #d6d4d4;
+}
+
+.page-cms-14 .frais-port-container table thead td {
+    padding: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-cms-14 .frais-port-container table tbody tr {
+    background-color: #eeeeee;
+    font-size: 13px;
+}
+
+.page-cms-14 .frais-port-container table tbody td {
+    padding: 6px 10px 24px 22px;
+    text-transform: uppercase;
+}
+
+.cms-id-17 #content-wrapper,
+.cms-id-58 #content-wrapper,
+.cms-id-2 #content-wrapper,
+.page-cms-12 #center_column,
+.page-cms-15 #center_column,
+.page-cms-23 {
+    padding: 0 !important;
+}
+
+.page-cms-12 .moyen-paiment-container h3 {
+    color: #2765ad;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 18px 0px 0px !important;
+    text-transform: none;
+    text-align: left;
+}
+
+.page-cms-12 .moyen-paiment-container h3 img {
+    display: none;
+}
+
+.page-cms-15 .background-container .img-container {
+    margin-bottom: 15px;
+}
+
+.page-cms-15 .center-columns .developpement-durable-container {
+    background-color: #fff;
+    padding: 15px 30px;
+}
+
+.page-cms-15 .center-columns .insta-nav {
+    margin-bottom: 15px;
+}
+
+.page-cms-15 .developpement-durable-container .sous-titre {
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: #2765ad;
+}
+
+.page-cms-15 .developpement-durable-container .sous-titre .zeppelin {
+    font-family: zeppelin;
+    font-weight: 800;
+}
+
+.page-cms-15 .developpement-durable-container .sous-titre .typodermic {
+    font-family: typodermic;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.page-cms-15 .developpement-durable-container .sous-titre .green {
+    color: #0db220 !important;
+}
+
+.page-cms-15 .developpement-durable-container .img-container img {
+    display: block;
+    max-width: 100% !important;
+    margin: 0px auto;
+}
+
+.page-cms-15 .developpement-durable-container .text {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.page-cms-15 .developpement-durable-container .text p {
+    font-family: Arial, Hevetica, sans-serif;
+    color: #212121;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.page-cms-15 .developpement-durable-container .text p.bold.italic,
+.page-cms-15 .developpement-durable-container .text p.italic {
+    font-style: italic;
+}
+
+.page-cms-15 .insta-nav .navbar-collapse,
+.page-cms-16 .insta-nav .navbar-collapse {
+    padding: 0;
+}
+
+.page-cms-15 .insta-nav .navbar-collapse .nav.navbar-nav,
+.page-cms-16 .insta-nav .navbar-collapse .nav.navbar-nav {
+    margin-bottom: 0 !important;
+}
+
+.page-cms-15 .insta-nav li a,
+.page-cms-16 .insta-nav li a {
+    padding: 10px 34px !important;
+}
+
+.page-cms-11 .livraison-container {
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 10px 25px;
+}
+
+.page-cms-11 .livraison-container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.page-cms-11 .livraison-container .button-container {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.page-cms-11 .button-container .button-livraison {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    background-color: #2765ad;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.page-cms-11 .tarifs-livraison-container {
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 10px 25px;
+}
+
+.page-cms-11 .tarifs-livraison-container h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #2765ad;
+}
+
+.page-cms-11 .tarifs-livraison-container table thead td {
+    padding: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-cms-11 .tarifs-livraison-container table thead tr {
+    background-color: #dddddd;
+    font-size: 13px;
+}
+
+.page-cms-11 .tarifs-livraison-container table thead td {
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    color: #777;
+}
+
+.page-cms-11 .tarifs-livraison-container table tbody tr {
+    background-color: #eeeeee;
+    font-size: 13px;
+}
+
+.page-cms-11 .tarifs-livraison-container table tbody td {
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding: 6px 10px 24px 22px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+.page-cms-11 .domtom {
+    margin: auto;
+    margin-top: 32px;
+}
+
+.page-cms-11 .tarifs-livraison-container .domtom h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 3px;
+    text-align: center !important;
+    color: #2765ad;
+    line-height: normal;
+}
+
+.page-cms-11 .tarifs-livraison-container .domtom h2 a {
+    color: #000 !important;
+}
+
+.page-cms-16 .background-container .img-container {
+    margin-bottom: 15px;
+}
+
+.page-cms-16 .disque-content.top {
+    margin-top: 25px;
+    padding: 0;
+}
+
+.page-cms-16 .disque-content.top .philo-content {
+    background: #fff;
+    padding: 27.3px 40px;
+}
+
+.page-cms-16 .disque-content.top .philo-content .philo-txt-content h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.page-cms-16 .logo-qsn {
+    padding-bottom: 6px;
+}
+
+.page-cms-16 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #777;
+
+}
+
+.page-cms-16 .disque-content {
+    margin-top: 25px;
+}
+
+.page-cms-16 .creafab-content .crea-content,
+.page-cms-16 .creafab-content .fab-content,
+.page-cms-16 .creafab-content .distrib-content {
+    margin-top: 25px;
+    background: #fff;
+    padding: 27.3px 40px;
+}
+
+.page-cms-16 .creafab-content .crea-content .crea-txt-content h2 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.page-cms-16 .disque-content .img-responsive {
+    display: block;
+    max-width: 100% !important;
+    height: auto !important;
+    padding-left: 0 !important;
+}
+
+.page-cms-16 .creafab-content {
+    padding-right: 15px !important;
+}
+
+.page-cms-16 .galerie-container {
+    margin-top: 25px;
+    width: 100%;
+    background-color: #fff !important;
+}
+
+.page-cms-16 .padding-galerie .galerie1 {
+    background-image: url(img/apropos1.jpg);
+    height: 522px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-cms-16 .padding-galerie .galerie2 {
+    background-image: url(img/apropos2.jpg);
+    height: 259px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-cms-16 .padding-galerie .galerie3 {
+    background-image: url(img/apropos3.jpg);
+    height: 259px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4px;
+}
+
+.page-cms-16 .padding-galerie .galerie4 {
+    background-image: url(img/apropos4.jpg);
+    height: 522px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-cms-16 .padding-galerie .galerie5 {
+    background-image: url(img/apropos5.jpg);
+    height: 259px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-cms-16 .padding-galerie .galerie6 {
+    margin-top: 4px;
+    background-image: url(img/apropos6.jpg);
+    height: 259px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-cms-16 .padding-galerie {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+
+.page-cms-2 hr {
+    margin-top: 18px !important;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #eeeeee !important;
+    width: auto !important;
+
+}
+
+.page-cms-16 .map-container {
+    position: relative;
+    padding: 0;
+}
+
+.page-cms-16 .map-container .barre {
+    position: absolute;
+    height: 47px;
+    width: 100%;
+    background-color: #e9e9e9;
+}
+
+.page-cms-16 .youtubevideocontainer {
+    margin: 40px 0px;
+}
+
+.page-cms-16 .youtubevideocontainer {
+    float: left;
+    background-color: white;
+    /* margin: 25px 15px;*/
+    width: 100%;
+    padding: 20px 40px 40px 40px;
+    font-weight: 600;
+}
+
+.page-cms-16 .youtubevideocontainer .fond-titre-conseil h2 {
+    font-size: 27px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0;
+    text-align: left;
+    display: inline-block;
+    background-color: white;
+    color: #717171;
+}
+
+.page-cms-16 .dimagooglevideo {
+    margin-top: 25px;
+    float: left;
+    width: 100% !important;
+}
+
+.page-cms-16 .dimagooglevideo iframe {
+    width: 100%;
+}
+
+.conseil-expert-container .button-container {
+    margin-bottom: 20px;
+}
+
+.conseil-expert-container .button-container .button-devis {
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    background-color: #2765ad;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+}
+
+.conseil-expert-container p:nth-child(9) {
+    margin-bottom: 30px;
+}
+
+.conseil-expert-container {
+    margin-bottom: 40px;
+}
+
+.page-content.page-cms.page-cms-11 {
+    padding: 0;
+}
+
+.page-cms-11 #center_column .row-left {
+    padding-left: 0;
+}
+
+.page-cms-11 #center_column .row-right {
+    padding-right: 0;
+}
+
+#content.page-content.page-cms.page-cms-8 .sav-container {
+    background: #ffffff;
+    display: block;
+    padding: 20px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+#content.page-content.page-cms.page-cms-8 .sav-container p,
+#content.page-content.page-cms.page-cms-8 .sav-container h3 {
+    font-size: 13px;
+}
+
+#content.page-content.page-cms.page-cms-8 .sav-container h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: Oswald, sans-serif;
+    color: #2765ad;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+
+.page-cms-8 #content.page-content.page-cms h3 {
+    color: #2765ad;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+#content.page-content.page-cms a.button-contact {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    background-color: #2765ad;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#content.page-content.page-cms.page-cms-8 .footer-container.pages-externes {
+    padding-top: 0;
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid transparent;
+    background: #ffffff;
+}

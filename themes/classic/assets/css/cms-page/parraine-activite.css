@@ -1,0 +1,48 @@
+.page-cms-22 .par-act-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.page-cms-22 .par-act-container .title {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: left!important;
+    font-weight: normal;
+}
+.page-cms-22 .par-act-container p {
+    font-size: 13px;
+    color: #000;
+}
+.page-cms-22 .par-act-container .photos-container {
+    padding: 0px 12%;
+}
+.page-cms-22 .par-act-container .photos-container .img-container {
+    margin-top: 32px;
+}
+.page-cms-22 .par-act-container .photos-container .img-container:nth-child(2) {
+    padding-top: 30px;
+}
+.page-cms-22 .formulaire-footer-container hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #eeeeee!important;
+    width: 100%!important;
+}
+.page-cms-22 .formulaire-footer-container .button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #eb0400;
+    font-size: 20px;
+    display: inline;
+    padding: 10px 15px;
+    font-family: bebas_neuebold;
+    margin-bottom: 20px;
+}
+.page-content.page-cms.page-cms-22{
+    padding: 0;
+}

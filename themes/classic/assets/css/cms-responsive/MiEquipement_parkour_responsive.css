@@ -1,0 +1,223 @@
+.cms-id-52 #content>div>div {
+    padding: 0;
+}
+
+.cms-id-52 #content-wrapper {
+    padding: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.cms-id-52 #wrapper>div {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.cms-id-52 #wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div {
+    padding: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5 {
+    padding-right: 15px;
+    padding-left: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(1) {
+    padding-left: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div {
+    padding: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(1) {
+    padding-left: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div {
+    padding: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.row>div {
+    padding: 0;
+}
+
+.cms-id-52 #content>div>div>div>div.row>div>div {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+@media screen and (max-width: 766px) {
+    .cms-id-52 #content>div>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container {
+        margin: 0 !important;
+        padding: 30px;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5>div:nth-child(2)>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(1)>div>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5 {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-7 {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(1) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(2) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(1) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(2) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(1)>div>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.row>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.row>div>div {
+        margin: 0 !important;
+        margin-top: 28px !important;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container {
+        margin-top: 15px !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 767px) {
+    .cms-id-52 #content>div>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container {
+        margin: 0 !important;
+        padding: 30px;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5>div:nth-child(2)>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(1)>div>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5 {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-7 {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(1) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(3)>div>div>div>div:nth-child(2) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(1) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(2) {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(4)>div>div>div>div:nth-child(1)>div>img {
+        margin-bottom: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.row>div {
+        padding: 0;
+    }
+
+    .cms-id-52 #content>div>div>div>div.row>div>div {
+        margin: 0 !important;
+        margin-top: 28px !important;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container {
+        margin-top: 15px !important;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5>div:nth-child(1)>img {
+        margin: 0 auto;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5>div:nth-child(2)>img {
+        margin: 0 auto;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-7>div>img {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .cms-id-52 #content>div>div>div>div.sur-mesure-equipement-container>div:nth-child(2)>div>div>div>div.col-md-5 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

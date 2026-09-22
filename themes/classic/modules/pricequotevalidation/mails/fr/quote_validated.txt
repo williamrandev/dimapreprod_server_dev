@@ -1,0 +1,18 @@
+Devis Validé
+
+Bonjour,
+
+Une proposition de devis a été VALIDÉE par un client.
+
+Référence : {validation_reference}
+Client : {customer_name}
+Email : {customer_email}
+Total HT : {total_ht}
+Total TTC : {total_ttc}
+
+Un panier a été créé pour ce client avec tous les articles du devis. Le client va procéder au paiement.
+
+Veuillez consulter votre back office pour plus de détails.
+
+Cordialement,
+{shop_name}

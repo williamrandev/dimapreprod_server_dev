@@ -1,0 +1,68 @@
+.page-cms-21 .ani-act-container {
+  background-color: #fff;
+  padding: 50px;
+}
+.page-cms-21 .ani-act-container h3.title {
+  font-family: bebasneue;
+  text-transform: uppercase;
+  color: #2765ad;
+  font-size: 40px;
+  margin-bottom: 18px;
+  margin-top: 0;
+  text-align: left;
+  margin-left: 0;
+  font-weight: normal;
+}
+.page-cms-21 .ani-act-container p {
+  color: #000;
+  font-size: 13px;
+}
+.page-cms-21 .ani-act-container .photos-container .img-container {
+  margin-top: 20px;
+  width: 37%;
+  float: left;
+}
+.page-cms-21 .ani-act-container .photos-container .img-container:nth-child(2) {
+  margin-top: 20px;
+  width: 25.9%;
+  float: left;
+}
+.page-cms-21 .formulaire-footer-container hr {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 0;
+  width: 100% !important;
+  border-top: 1px solid #eeeeee !important;
+}
+.page-cms-21 .formulaire-footer-container .button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #eb0400;
+  font-size: 20px;
+  display: inline;
+  padding: 10px 15px;
+  font-family: bebas_neuebold;
+  margin-bottom: 20px;
+}
+.page-content.page-cms.page-cms-21 {
+  padding: 0px;
+}
+
+.page-cms-21 .ani-act-container .row .col-md-12 .row:last-child .col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .page-cms-21 .row {
+    margin: 0 -15px;
+  }
+  .page-cms-21 .ani-act-container {
+    margin: 0 35px;
+  }
+}
+
+
+@media screen () {
+  
+}

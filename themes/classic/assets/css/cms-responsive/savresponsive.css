@@ -1,0 +1,20 @@
+@media (max-width:768px) {
+    .cms-id-8 .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cms-id-8 .container{
+        margin: 0px;
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .cms-id-8 #prefooter-desktop{
+        display: none;
+    }
+    .cms-id-8 #prefooter-mobile{
+        display: block;
+    }
+}
+
+

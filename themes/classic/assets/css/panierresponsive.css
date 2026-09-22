@@ -1,0 +1,208 @@
+@media (max-width: 1140px) {
+     .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p span.label ,
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p span.subtotal.value {
+        display: inline!important;
+        width: 100%!important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p span ,
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p span.shipping.value {
+        display: inline!important;
+        width: 100%!important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p.product-total span.label ,
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p.product-total span.value {
+        display: inline!important;
+        width: 100%!important;
+    }   
+}
+@media (max-width: 991px) {
+    .page-product #blockcart-modal {
+        width: 100% !important;
+        height: auto !important;
+    }     
+    /* Empile les colonnes dans la modale */
+    .page-product #blockcart-modal .modal-body .row {
+        /*display: grid !important;*/
+        width: 100% !important;
+        height: auto !important;
+    }
+    .page-product #blockcart-modal .row .col-md-5.divide-right {
+    	width: 100%!important;
+    }    
+    .page-product #blockcart-modal .row .col-md-5.divide-right .row {
+		display: flex!important;
+		width: 100%!important;
+		height: auto!important;
+	} 
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right {
+    	width: 100%!important;
+    	height: auto!important; 
+        margin: auto!important;
+    	padding: auto!important;	
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 {
+    	max-width: 50%!important; 
+    	height: auto!important;
+    	float: center!important;     	
+    } 
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 {
+    	width: 50%!important; 
+    	height: auto!important;
+    	float: center!important;    	
+    }     	       	      
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 img {
+    	width: auto!important; 
+    	height: auto!important;   
+    	float: center!important;   
+    }     
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 span.article {
+    	max-width: 100%!important;
+        margin: auto!important;
+    	padding: auto!important;    	  	
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 h6.h6.product-name {
+    	max-width: 100%!important; 
+    	/*display: block!important;*/ 	
+    }    
+   /* Ajustement spécifique au contenu de la colonne gauche */
+    #blockcart-modal .row .col-md-5.divide-right .row h6.product-name,
+    #blockcart-modal .row .col-md-5.divide-right .row .selectionner.une.dimension {
+        width: 100% !important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 {
+    	width: 100%!important;
+    	margin-top: auto!important; 
+    }           
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 p {
+        margin: auto!important;
+        display: inline!important;     
+    	padding: auto!important;
+    	max-width: 100%!important;
+    	height: auto!important; 
+    }    
+    .page-product #blockcart-modal .modal-body .cart-content .cart-content-btn .btn.btn-secondary {
+    	width: 100%!important;
+    	display: inline!important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p.cart-products-count {
+        width: 100%!important;
+        display: flex!important;
+        margin-bottom: auto!important;
+        padding-bottom: auto!important;
+    }   
+}
+
+
+
+@media (max-width: 767px) {
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .row .col-md-6 h6.h6.product-name {
+    	display: none!important;
+    }    	
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5.divide-right .col-md-6 span.article {
+    	display: none;
+    } 
+    .page-product #blockcart-modal {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .page-cart .cart-grid .cart-grid-body{
+        padding: 0;
+    }
+    .page-cart .cart-grid .cart-grid-right{
+        margin: 0;
+        background-color: white;
+        padding: 0;
+    }
+    .page-cart .cart-grid .cart-grid-right .card.cart-summary{
+        padding: 0 15px;
+    }
+    #main > div > div.cart-grid-body.col-lg-8 > div > div.cart-overview.js-cart > ul > li > div > div.product-line-grid-right.product-line-actions.col-md-5.col-xs-12 > div > div.col-xs-4.hidden-md-up{
+        display: none;
+    }
+    #main > div > div.cart-grid-body.col-lg-8 > div > div.cart-overview.js-cart > ul > li > div > div.product-line-grid-right.product-line-actions.col-md-5.col-xs-12 > div > div.col-md-10.col-xs-6 > div > .price{
+        margin-left: 30px;
+        margin-top: 3px;
+    }
+    #main > div > div.cart-grid-body.col-lg-8 > div > div.cart-overview.js-cart > ul > li > div > div.product-line-grid-right.product-line-actions.col-md-5.col-xs-12 > div > div.col-md-2.col-xs-2.text-xs-right{
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .page-product #blockcart-modal .modal-body .row {
+        width: 100% !important;
+        height: auto !important;
+    }	
+    .page-product #blockcart-modal {
+        width: 100%;
+        height: auto;
+    }	
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5 .divide-right {
+    	width: 100%!important;
+    	height: auto!important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-5 .divide-right .row {
+        display: block!important;
+        max-width: 100%!important;        	
+	}
+    .page-product #blockcart-modal .row .col-md-5.divide-right .row {
+		display: block!important;
+		width: 100%!important;
+	}
+	.page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p.cart-products-count {
+		font-size: large!important;
+        margin: 0px!important;
+	}
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content p {
+    	display: block!important;
+    	margin: 20px!important;
+        padding: 0px;
+        font-size: small!important;
+    }	 		
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content .cart-content-btn {
+        display: block!important;
+    } 
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content .cart-content-btn button.btn.btn-secondary {
+        margin: 10px!important;
+        width: 135px!important;
+        display: block!important;
+    }     
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 .cart-content .cart-content-btn a.btn.btn-primary {
+        margin: 10px!important;
+    } 
+    .page-product #blockcart-modal.modal.fade.in {
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }  
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content .modal-header h4.modal-title.h6.text-sm-center#myModalLabel {
+        font-size: large!important;
+    }
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content {
+        margin-top: 60px!important;
+    }                
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog {
+        margin: 12px!important;
+    }    
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content .modal-body {
+        padding: 10px!important;
+    }    
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content .modal-body .row .col-md-5.divide-right .row .col-md-6 img.product-image {
+        max-width: 160px!important;
+        margin: 0!important;
+    }   
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content .modal-body .row .col-md-5.divide-right .row .col-md-6 p.product-price {
+        margin: 38px 0 0 12px!important;
+        padding: 0!important;
+        font-size: small!important;
+    }
+    .page-product #blockcart-modal.modal.fade.in .modal-dialog .modal-content .modal-body .row .col-md-5.divide-right .row .col-md-6 span.product-quantity {
+        margin: 0 0 15px 12px!important;
+        padding: 0!important;
+        font-size: small!important;
+    }
+    .page-product #blockcart-modal .modal-dialog .modal-body .col-md-7 {
+        padding: 0px 30px 0px 3px!important;
+    }             
+}

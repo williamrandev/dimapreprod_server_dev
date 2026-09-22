@@ -1,0 +1,192 @@
+@media(max-width:768px){
+    .cms-id-48 #wrapper > div > nav{
+        
+        width: 100%;
+        margin-top: 15px !important;
+        
+    }
+
+}
+.cms-id-48 #content > div > div{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(1) > div{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(1){
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(2){
+    margin-bottom: 50px;
+    padding: 0;
+}
+/*.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(2) > div{
+    width: 100%;
+}*/
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(2) > div > p{
+    font-size: 20px;
+    text-align: center;
+}
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(3){
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(3) > div > img{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div{
+    padding: 0;
+    width: 100%;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div.col-md-9{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div.col-md-3{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div > div > div > div.col-md-5{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div > div > div > div.col-md-7{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(4) > div{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(4) > div > div > div > div.col-md-7{
+    padding: 0;
+}
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(4) > div > div > div > div.col-md-5{
+    padding: 0;
+}
+
+
+   
+    @media (max-width: 768px) {
+    .sac-dima-container .achat-sac {
+        /* On réduit le décalage pour que l'élément ne disparaisse pas en bas */
+        /* Tu peux tester 50% ou même 0% selon ton besoin */
+        transform: translateY(10%);}
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ============================================================
+   DESIGN RESPONSIVE : MODE TABLETTE (768px à 991px)
+   Forçage de l'empilement vertical des images et textes
+   ============================================================ */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /* 1. Force toutes les colonnes à prendre 100% de largeur */
+    .sac-dima-container .col-md-4,
+    .ligne1 .col-md-9, .ligne1 .col-md-3,
+    .ligne2 .col-md-5, .ligne2 .col-md-7,
+    .ligne3 .col-md-7, .ligne3 .col-md-5 {
+        width: 100% !important;
+        float: none !important;
+        display: block !important;
+        margin-bottom: 20px; /* Espace entre les éléments empilés */
+    }
+
+    /* 2. Centrage des images et des textes pour un rendu propre */
+    .img-container, 
+    .img-container img {
+        margin: 0 auto !important;
+        text-align: center;
+    }
+
+    .achat-sac {
+        text-align: center;
+        padding: 20px 0;
+        background-color: #f9f9f9; /* Optionnel : léger fond pour le texte */
+    }
+
+    /* 3. Ajustement des légendes sous les images du voyage */
+    .legend {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+
+    /* 4. Gestion des images d'historique (les petites vignettes) */
+    p img {
+        display: block !important;
+        margin: 15px auto !important; /* Empile les logos/sacs historiques */
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    /* 5. Titres et paragraphes */
+    .voyage-sac-dima-container h2.titre,
+    .page-cms h3 {
+        text-align: center !important;
+        font-size: 1.5rem !important;
+    }
+
+    /* 6. Formulaire de contact en bas de page */
+    .formulaire-footer-container {
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cms-id-48 #content > div > div > div:nth-child(1) > div > div > div > div > div:nth-child(2) {
+    margin-bottom: 88px;
+    padding: 0;
+}
+
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > div.col-md-9 {
+    padding: 42px;
+ }
+
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(3) > div > div > div > div.col-md-7 {
+    padding: 56px;
+}
+
+
+.cms-id-48 #content > div > div > div:nth-child(2) > div > div > div:nth-child(4) > div > div > div > div.col-md-7 {
+    padding: 56px;
+}
+.cms-id-48 #content .col-md-12 {
+        float: left;
+        width: 94%;
+        margin-left: 14PX;
+    }
+
+
+}

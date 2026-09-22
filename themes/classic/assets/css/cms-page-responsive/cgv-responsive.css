@@ -1,0 +1,12 @@
+@media(max-width:768px){
+    .cms-14-cgv.breadcrumb{
+        width: 100%;
+        
+    }
+    .page-cms-14 .frais-port-container table {
+        text-align: left;
+        margin: 25px auto;
+        padding: 0 !important;
+        width: 100%;
+    }   
+}

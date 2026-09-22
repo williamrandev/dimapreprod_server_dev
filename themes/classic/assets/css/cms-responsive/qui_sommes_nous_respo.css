@@ -1,0 +1,155 @@
+@media(max-width :767px){
+   .cms-id-16 #content > div.center-columns.col-md-12.col-xs-12{
+        float: none !important;
+           
+    }
+ .cms-id-16  #content > div.col-lg-12.col-md-12 > div.insta-nav > div > div.navbar-header > button {
+    padding-top: 25px;
+    padding-bottom: 10px;
+      background-color: #d5292f;
+      border: none;
+}
+.cms-id-16 .insta-nav span.glyphicon:after{
+    font-size: 50px !important;
+    font-weight: inherit !important;
+        border: none;
+}
+.cms-id-16 .page-content.page-cms {
+    padding: 0% !important;
+}
+
+.cms-id-16 .cms-id-16 .padding-galerie {
+width: 100% !important;
+}
+ .cms-id-16 #wrapper >div>nav {
+    width: 100% !important;
+    margin-left: 0px;
+}
+
+.cms-id-16 #content > div.center-columns.col-md-12.col-xs-12{
+    background-color: #e9e9e9 !important;
+
+}
+.cms-id-16 #wrapper > div{
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+}
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+#content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content{
+   margin-top: 0px;
+   /* mba analana anle margin aomabany le sary  */
+}
+
+.cms-id-16 #content > div.col-lg-12.col-md-12 > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.disque-content.top {
+    padding-left: 0;
+    padding-right: 0;
+}
+.cms-id-16 #content > div.col-lg-12.col-md-12 > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.disque-content.top > div > div ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.crea-content > div ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.distrib-content > div
+    {
+        background: #fff;
+            margin-top: 0px;
+        text-align: left;
+    
+    }
+    .cms-id-16 #content > div.col-lg-12.col-md-12 > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.disque-content.top > div > div > p ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.crea-content > div > p:nth-child(2) ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.crea-content > div > p:nth-child(3) ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div > p:nth-child(2) , 
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div > p:nth-child(3) ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.distrib-content > div > p:nth-child(2) ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.distrib-content > div > p:nth-child(3) ,
+    .cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div > p:nth-child(3)
+    {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0 0 9px;
+
+}
+.cms-id-16 .logo-qsn {
+    padding-bottom: 0px;
+}
+
+.cms-id-16 .galerie1 {
+    background-image: url(../../img/pages-annexes/apropos1.jpg);
+    height: 522px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.cms-id-16 .col-md-12 ,
+.cms-id-16 .col-xs-12 {
+    padding-right: 0px ;
+    padding-left: 0px;
+}
+
+
+
+ 
+.cms-id-16 .padding-galerie .galerie1 ,
+.cms-id-16 .padding-galerie .galerie2 ,
+.cms-id-16 .padding-galerie .galerie3 ,
+.cms-id-16 .padding-galerie .galerie4 ,
+.cms-id-16 .padding-galerie .galerie5 ,
+.cms-id-16 .padding-galerie .galerie6 {
+   margin-bottom: 10px;
+    margin-top: 10px;
+
+    
+}
+.cms-id-16 .padding-galerie {
+    width: 100% !important;
+
+}
+.cms-id-16 .map-container .barre {
+
+    height: 0px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div > h2 ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.distrib-content > div > h2 {
+
+    font-family: 'Oswald', sans-serif !important;
+    /* text-transform: uppercase; */
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+}
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.crea-content > div h2 ,
+.cms-id-16 #content > div.col-lg-12.col-md-12 > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.disque-content.top > div > div h2 ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.fab-content > div h2 ,
+.cms-id-16 #content > div.col-lg-6.col-md-6.col-sm-12.col-xs-12.creafab-content > div.col-lg-12.col-md-12.col-sm-12.col-xs-12.distrib-content > div h2
+{
+    font-family: 'Oswald', sans-serif !important;
+    /* text-transform: uppercase; */
+    font-size: 30px !important;
+    font-weight: 400 !important;
+    text-align: left !important;
+}
+.cms-id-16 span {
+    VERTICAL-ALIGN: middle;
+}
+
+
+}

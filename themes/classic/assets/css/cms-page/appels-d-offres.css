@@ -1,0 +1,56 @@
+.page-content.page-cms.page-cms-18{
+    padding: 0;
+}
+.app-off-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.page-cms-18 .app-off-container .title {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 0;
+    font-weight: normal;
+}
+.page-cms-18 .app-off-container .sous-titre {
+    font-family: bebas_neuebold;
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 21px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    font-weight: normal;
+}
+.page-cms-18 .app-off-container .photos-container .img-container {
+    margin-top: 20px;
+}
+.page-cms-18 .app-off-container p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+.page-cms-18 .formulaire-footer-container{
+    margin-top: 0;
+    padding: 10px 0 10px 0!important;
+}
+.page-cms-18 .formulaire-footer-container hr{
+    margin-top: 18px!important;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #eeeeee!important;
+    width: 100%!important;
+}
+.page-cms-18 .formulaire-footer-container .button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #eb0400;
+    font-size: 20px;
+    display: inline;
+    padding: 10px 15px;
+    font-family: bebas_neuebold;
+    margin-bottom: 20px;
+}

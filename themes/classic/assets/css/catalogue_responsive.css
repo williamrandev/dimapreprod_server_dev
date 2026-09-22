@@ -1,0 +1,20 @@
+@media(max-width: 768px){
+#content > div:nth-child(1) > a,#content > div:nth-child(2) > a, #content > div:nth-child(3) > a, #content > div:nth-child(4) > a,#content > div:nth-child(5) > a, #content > div:nth-child(6) > a, #content > div:nth-child(7) > a ,  .col-md-4.catalogues-issuu #content > div:nth-child(8) > a
+   {
+     background-color: 2765ad;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 4px;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+   }
+
+
+}

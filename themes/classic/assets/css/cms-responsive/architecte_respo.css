@@ -1,0 +1,65 @@
+@media (max-width:768px) {
+    .cms-id-49 .center-columns {
+        padding: 0px;
+    }
+    .cms-id-49 .architecte-container{
+        margin: 0px !important;
+    }
+    .cms-id-49 .architecte-container .titre{
+        text-align: center !important;
+    }
+    .cms-id-49 .col-md-12{
+        padding: 0px;
+    }
+    .cms-id-49 .formulaire-footer-container{
+        margin: 0px !important;
+    }
+    .cms-id-49 .clients-aide{
+        margin: 20px 0px 0px 0px !important;/*..*/
+        padding: 10px 30px 40px 30px !important;
+    }
+    .cms-id-49 .titre-container .titre{
+        text-align: left;
+    }
+    .cms-id-49 .clients-aide-img .col-md-4{
+        padding: 0px;
+    }
+    .cms-id-49 .img-responsive{
+        width: 100%;
+    }
+    .cms-id-49 .row  .col-md-12:first-child .img-container img.img-responsive{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .cms-id-49 .red-line{
+        background-color: red;
+        height: 7px;
+        margin-top: 7px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (min-width:768px) {
+    .cms-id-49 .container{
+        padding: 0px 25px 0px 25px;
+    }
+    .cms-id-49 #content-wrapper{
+        padding: 0px;
+    }
+    .cms-id-49 .row .center-columns {
+        padding: 0px !important;
+    }
+    .cms-id-49 .architecte-container{
+        margin: 0px !important;
+    }
+    .cms-id-49 .col-md-12{
+        padding: 0px;
+    }
+    .cms-id-49 .formulaire-footer-container{
+        margin: 0px !important;
+    }
+    .cms-id-49 .clients-aide{
+        margin: 20px 0px 0px 0px !important;
+    }
+}

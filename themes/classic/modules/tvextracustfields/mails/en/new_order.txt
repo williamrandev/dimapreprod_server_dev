@@ -1,0 +1,39 @@
+Hi {firstname} {lastname},
+
+Thank you for your order with the reference {order_name} from {shop_name}.
+Your order has been successfully placed and will be shipped as soon as possible.
+
+ORDER DETAILS
+Order: {order_name} Placed on {date}
+Payment: {payment}
+
+Products:
+{items}
+
+Total Products: {total_products}
+Discounts: {total_discounts}
+Gift-wrapping: {total_wrapping}
+Shipping: {total_shipping}
+Total Tax paid: {total_tax_paid}
+Total paid: {total_paid}
+
+CARRIER:
+{carrier}
+
+DELIVERY ADDRESS:
+{delivery_block_html}
+
+BILLING ADDRESS:
+{invoice_block_html}
+
+CUSTOMER MESSAGE:
+{message}
+
+ADDITIONAL INFORMATION:
+{tvcustomer_extra_fields}
+
+ADDITIONAL TEXT:
+{additional_block_html}
+
+{shop_name}
+{shop_url}

@@ -1,0 +1,13 @@
+{shop_url}
+
+{no_reply_sentence_txt}
+
+Bonjour {firstname} {lastname},
+
+Nous avons bien reçu votre demande de devis.
+
+Devis posté le {date} :
+
+{details_html}
+
+[{shop_name}]({shop_url}) vous remercie de votre confiance.

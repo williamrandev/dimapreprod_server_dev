@@ -1,0 +1,282 @@
+  @media (max-width: 768px) {
+
+    .cms-id-28 #main .page-content,
+    .cms-id-28 .center-columns.col-md-12.col-xs-12,
+    .cms-id-28 .col-md-8 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .perche-container .niveau .documentation .explication {
+      text-align: center;
+      display: block;
+      margin-bottom: 30px;
+      float: none;
+    }
+
+    #content>div>div>div.row.margin-0-auto>div>p:nth-child(4),
+    .cms-id-28 .first-p,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(11)>div>div>div.installation-perche>div>div:nth-child(2)>div>p,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(11)>div>div>div.installation-perche>div>div:nth-child(3)>div>p {
+      text-align: left !important;
+    }
+
+    .cms-id-28 p,
+    .cms-id-28 .table td {
+      font-size: 13px;
+    }
+
+    #content>div>div>div.row.margin-0-auto>div>div:nth-child(5)>div:nth-child(1)>div>div.FFA.documentation>div.explication>p.bolder,
+    #content>div>div>div.row.margin-0-auto>div>div:nth-child(5)>div:nth-child(1)>div>div.IAAF.documentation>div.explication>p.bolder {
+      font-size: 23px;
+    }
+
+    #content>div>div>div.row.margin-0-auto>div>div:nth-child(5)>div:nth-child(1)>div>div.IAAF.documentation,
+    .cms-id-28 .FFA.documentation,
+    .cms-id-28 p.bolder,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(5)>div:nth-child(1)>div>div.FFA.documentation>div.explication>p:nth-child(2),
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(5)>div:nth-child(1)>div>div.IAAF.documentation>div.explication>p:nth-child(2),
+    .cms-id-28 .explication,
+    .cms-id-28 p.red,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(10)>div>div>div>div>div>div.explication>div>p:nth-child(3),
+    .cms-id-28 .container-perche-instalation .installation-perche {
+      text-align: center;
+    }
+
+    .perche-container .niveau .documentation>div.img-container>img {
+      width: 50%;
+    }
+
+    .cms-id-28 .perche-container .niveau .documentation>div.img-container {
+      width: 50%;
+    }
+
+    .cms-id-28 .FFA.documentation {
+      margin: 0 auto;
+      width: 55%;
+    }
+
+    .cms-id-28 #content-wrapper {
+      background-color: #fff !important;
+    }
+
+    .cms-id-28 #wrapper>div {
+      padding-left: 25px;
+      padding-right: 25px;
+      width: 100%;
+    }
+
+    .cms-id-28 #content>div>div>div.sponso-container {
+      margin-bottom: 10px !important;
+    }
+
+    /* daycode */
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-4 {
+      justify-items: center !important;
+    }
+
+    .cms-id-28 #content>div>div>div:nth-child(3)>div>div>div:nth-child(2)>div>div>div,
+    .cms-id-28 .tapis .container-tapis .info-perche {
+      width: 100% !important;
+    }
+
+    .cms-id-28 #content>div>div>div:nth-child(3)>div>div>div:nth-child(2)>div>.zones button {
+      width: 100% !important;
+      font-size: 16px !important;
+      padding: 10px;
+      margin: 15px 0 0;
+    }
+
+    .cms-id-28 #content>div>div>div.insta-nav>div>div.navbar-header>button {
+      background-color: #d5292f;
+      border: none;
+      padding-top: 25px;
+    }
+
+    .cms-id-28 .insta-nav span.glyphicon:after {
+      font-size: 50px !important;
+      font-weight: inherit !important;
+      border: none;
+    }
+
+    .cms-id-28 .perche-container .niveau .documentation>div.img-container {
+      margin-right: 0;
+      width: 100%;
+      float: none;
+      margin-bottom: 15px;
+      place-items: center;
+    }
+
+    /* nextdaycode */
+    .cms-id-28 .perche-container .rails-poteaux .padding-container,
+    .cms-id-28 .perche-container .conseil-DIMA .butoir .padding-container,
+    .cms-id-28 .perche-container .conseil-DIMA .butoir2 .padding-container,
+    .cms-id-28 .amenagement-air .img-container,
+    .cms-id-28 .tapis .padding-container,
+    .cms-id-28 .formulaire-footer-container {
+      padding: 0 !important;
+    }
+
+    .cms-id-28 .img-container,
+    .cms-id-28 .explication,
+    .cms-id-28 .container-perche-instalation {
+      place-items: center;
+    }
+
+    .cms-id-28 .amenagement-air .img-container {
+      margin-top: 0;
+    }
+
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(8)>div>div>div>div:nth-child(2)>div>div:nth-child(1)>div>table>thead>tr>td,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(8)>div>div>div>div:nth-child(2)>div>div:nth-child(2)>div>table>thead>tr>td,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div:nth-child(8)>div>div>div>div:nth-child(2)>div>div:nth-child(3)>div>table>thead>tr>td {
+      text-align: center;
+    }
+
+    .cms-id-28 .table td {
+      border-width: 0 3px;
+      border-top: 1px solid #f6f6f6;
+    }
+
+    .cms-id-28 .spec-air-perche .table>tbody>tr>td,
+    .cms-id-28 .spec-air-perche .table>tbody>tr>th {
+      background-color: #f5f5f5;
+      margin-top: 0;
+      border-top: 0;
+      padding: 13px 8px 13px 18px;
+      color: #212121;
+    }
+
+    .cms-id-28 .table {
+      border-spacing: 0 5px !important;
+      margin-bottom: 50px;
+      padding: 0 11px 11px 11px !important;
+    }
+
+    .cms-id-28 img#logo-DIMA,
+    .cms-id-28 .tapis .container-tapis .info-perche #telephone {
+      width: 100%;
+    }
+
+    .cms-id-28 .container-perche-instalation {
+      padding: 0 !important;
+    }
+
+    .cms-id-28 .container-perche-instalation .installation-perche {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    .cms-id-28 .container-perche-instalation h4 {
+      color: #2765ad !important;
+      margin-bottom: 30px !important;
+      padding-left: 0 !important;
+    }
+
+    .cms-id-28 .tableau-perche a {
+      display: block;
+      width: 30%;
+      margin: 0 auto;
+    }
+
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div.tableau-perche>div.table-perche-classique>div,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div.tableau-perche>div.table-perche-classique>table,
+    .cms-id-28 #content>div>div>div.row.margin-0-auto>div>div.tableau-perche>div.table-perche-double-classique {
+      display: none;
+    }
+
+    .cms-id-28 .formulaire-footer-container h3.titre {
+      margin-bottom: 20px;
+    }
+
+    .cms-id-28 .page-cms #wrapper>div.container {
+      margin-bottom: 40px;
+    }
+
+    .cms-id-28 .perche-container .rails-poteaux h5.sous-sous-titre {
+      padding: 0 !important;
+    }
+
+    /* pour les trois images */
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-8>div.row>div>div>div {
+      display: flex;
+      place-items: center;
+    }
+
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-8>div.row>div>div>div>div.col-md-4.first>div {
+      width: 40%;
+    }
+
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-8>div.row>div>div>div>div:nth-child(1)>div,
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-8>div.row>div>div>div>div:nth-child(2)>div,
+    .cms-id-28 #content>div>div>div.sponso-container>div>div.col-md-8>div.row>div>div>div>div:nth-child(3)>div {
+      justify-items: center;
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    .cms-id-28 .col-lg,
+    .cms-id-28 .col-lg-1,
+    .cms-id-28 .col-lg-10,
+    .cms-id-28 .col-lg-11,
+    .cms-id-28 .col-lg-12,
+    .cms-id-28 .col-lg-2,
+    .cms-id-28 .col-lg-3,
+    .cms-id-28 .col-lg-4,
+    .cms-id-28 .col-lg-5,
+    .cms-id-28 .col-lg-6,
+    .cms-id-28 .col-lg-7,
+    .cms-id-28 .col-lg-8,
+    .cms-id-28 .col-lg-9,
+    .cms-id-28 .col-md,
+    .cms-id-28 .col-md-1,
+    .cms-id-28 .col-md-10,
+    .cms-id-28 .col-md-11,
+    .cms-id-28 .col-md-12,
+    .cms-id-28 .col-md-2,
+    .cms-id-28 .col-md-3,
+    .cms-id-28 .col-md-4,
+    .cms-id-28 .col-md-5,
+    .cms-id-28 .col-md-6,
+    .cms-id-28 .col-md-7,
+    .cms-id-28 .col-md-8,
+    .cms-id-28 .col-md-9,
+    .cms-id-28 .col-sm,
+    .cms-id-28 .col-sm-1,
+    .cms-id-28 .col-sm-11,
+    .cms-id-28 .col-sm-12,
+    .cms-id-28 .col-sm-2,
+    .cms-id-28 .col-sm-3,
+    .cms-id-28 .col-sm-4,
+    .cms-id-28 .col-sm-5,
+    .cms-id-28 .col-sm-6,
+    .cms-id-28 .col-sm-7,
+    .cms-id-28 .col-sm-8,
+    .cms-id-28 .col-sm-9,
+    .cms-id-28 .col-xl,
+    .cms-id-28 .col-xl-1,
+    .cms-id-28 .col-xl-10,
+    .cms-id-28 .col-xl-11,
+    .cms-id-28 .col-xl-12,
+    .cms-id-28 .col-xl-2,
+    .cms-id-28 .col-xl-3,
+    .cms-id-28 .col-xl-4,
+    .cms-id-28 .col-xl-5,
+    .cms-id-28 .col-xl-6,
+    .cms-id-28 .col-xl-7,
+    .cms-id-28 .col-xl-8,
+    .cms-id-28 .col-xl-9,
+    .cms-id-28 .col-xs,
+    .cms-id-28 .col-xs-1,
+    .cms-id-28 .col-xs-10,
+    .cms-id-28 .col-xs-11,
+    .cms-id-28 .col-xs-12,
+    .cms-id-28 .col-xs-2,
+    .cms-id-28 .col-xs-6,
+    .cms-id-28 .col-xs-7,
+    .cms-id-28 .col-xs-8,
+    .cms-id-28 .col-xs-9 {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }

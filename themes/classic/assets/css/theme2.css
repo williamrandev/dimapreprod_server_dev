@@ -1,0 +1,77 @@
+@media (max-width:1000px) {
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  max-width: 100%;
+  position: relative;
+}
+.DIMAKID-container .row .col-m12 .col-md-3 .col-sm-6 .col-xs-12{
+  width: 100%;
+  background-color: blue;
+}
+
+
+
+.slider-container {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.slider-container img {
+  width: 200px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 10px;
+}
+}
+
+/* Responsive : en colonne sur petit écran */
+@media (max-width:1000px) {
+.slider-container {
+    display: block;
+    align-items: center;
+  }
+
+
+
+
+  
+.header-nav .quotation_block span {
+   background: #d5292f;
+    border-radius: 50%;
+    font-family: cursive !important;
+    font-size: 11px !important;
+    color: #fff;
+    padding: .2em .6em!important;
+    position: relative;
+    top: -3px;
+    left: 4px;
+}
+ /*petite boulle rouge en header*/
+.header-nav .blockcart span.cart-products-count{
+  
+    background: #d5292f;
+    border-radius: 50%;
+    font-size: 11px;
+    font-family: cursive;
+    color: #fff;
+    padding: .2em .6em;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    margin-top: 19px;
+    top: -3px;
+    left: -5px
+}
+}

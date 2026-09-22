@@ -1,0 +1,56 @@
+@media(max-width:768px){
+.cms-id-45 #content > div > div{
+    padding: 0 !important;
+}
+.cms-id-45 #wrapper > div > nav{
+    width: 100%;
+    margin-top: 15px !important;
+}
+.cms-id-45 #content > div > div > div{
+padding: 0px;
+}
+.cms-id-45 .baby-athle-container > div:nth-child(1) > div:nth-child(1) > a:nth-child(1){
+    margin-left: 10px;
+}
+.cms-id-45 .baby-athle-container .container-pdf {
+    width: 100% !important;
+    margin: 30px auto;
+}
+.cms-id-45 .baby-athle-container .container-pdf img.img-responsive.img-pdf {
+    width: 100% !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > p{
+   color: #717171 !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > p > a{
+background-color: #FFFFFF !important;
+    color: #2765ad !important;
+    display: block;
+    margin-left: 0;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > div > img{
+   margin-bottom: 100px;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > div{
+color: #717171 !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > p{
+    line-height: 30px !important;
+    font-size: 25px;
+    top: 0;
+    right: 0;
+    padding: 10px !important;
+    position: relative !important;
+    text-align: center !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > div > img{
+    margin: auto !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div > div > img{
+display: none !important;
+}
+.cms-id-45 #content > div > div > div > div > div > div:nth-child(5) > div > div{
+background-color: #e9e9e9;
+}
+
+}

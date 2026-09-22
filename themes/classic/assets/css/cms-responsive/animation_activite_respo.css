@@ -1,0 +1,50 @@
+@media (max-width: 756px) {
+  #wrapper .breadcrumb li:last-child {
+    font-family: sans-serif;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-cms-21 .ani-act-container .photos-container .img-container {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+  }
+  .page-cms-21
+    .ani-act-container
+    .photos-container
+    .img-container:nth-child(2) {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+  }
+
+  .page-cms-21 .img-container .img-responsive {
+    width: 100%;
+  }
+
+  .page-cms-21 .ani-act-container {
+    padding: 20px;
+  }
+  .cms-id-21 section.page-content .center-columns {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.page-cms-21 .formulaire-footer-container {
+  padding-left: 0 !important;
+}
+
+@media screen and (min-width: 768px) {
+  body.page-cms-21 section#content div.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .page-cms-21 .ani-act-container .photos-container {
+    margin: 0 -30px;
+  }
+}

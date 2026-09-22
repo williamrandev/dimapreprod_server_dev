@@ -1,0 +1,17 @@
+Hi,
+
+You have received a message via your shop: {shop_name}
+
+Details of message:
+
+Name: {name}
+
+Question: {text}
+
+Product: {product_name}
+
+See this question here: {product_link}
+
+
+
+{shop_url} powered by PrestaShop™

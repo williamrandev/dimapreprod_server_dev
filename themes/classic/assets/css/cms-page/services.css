@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../../font/bebasneuebold/bebasneue_bold.eot');
+    src: url('../../font/bebasneuebold/bebasneue_bold.eot?#iefix') format('embedded-opentype'),
+    url('../../font/bebasneuebold/bebasneue_bold.woff2') format('woff2'),
+    url('../../font/bebasneuebold/bebasneue_bold.woff') format('woff'),
+    url('../../font/bebasneuebold/bebasneue_bold.ttf') format('truetype'),
+    url('../../font/bebasneuebold/bebasneue_bold.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../../font/bebasneuebook/bebasneue_book.eot');
+    src: url('../../font/bebasneuebook/bebasneue_book.eot?#iefix') format('embedded-opentype'),
+    url('../../font/bebasneuebook/bebasneue_book.woff2') format('woff2'),
+    url('../../font/bebasneuebook/bebasneue_book.woff') format('woff'),
+    url('../../font/bebasneuebook/bebasneue_book.ttf') format('truetype'),
+    url('../../font/bebasneuebook/bebasneue_book.svg#bebas_neuebook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'zeppelin';
+    src: url('../../font/storm-zeppelin43-bold.eot');
+    src: url('../../font/storm-zeppelin43-bold.eot?#iefix') format('embedded-opentype'),
+    url('../../font/storm-zeppelin43-bold.woff2') format('woff2'),
+    url('../../font/storm-zeppelin43-bold.woff') format('woff'),
+    url('../../font/storm-zeppelin43-bold.ttf') format('truetype'),
+    url('../../font/storm-zeppelin43-bold.svg#zeppelin_43bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+   
+.service-client-container .title {
+    font-family: 'bebasneue'!important;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px !important;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.service-client-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.service-client-container .row.intro .text-intro p {
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px!important;
+}
+p {
+    margin: 0 0 9px;
+}
+
+.formulaire-footer-container .titre {
+    text-align: left;
+    text-transform: uppercase;
+    color: #eb0400;
+    font-size: 27px;
+    margin-bottom: 9px;
+    font-weight:500;
+}
+.formulaire-footer-container .button_cms a {
+    background: #eb0400;
+    color: #ffffff !important;
+    margin-top: 50px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Open Sans';
+}
+element.style {
+    margin: 15px;
+}
+.formulaire-footer-container {
+    background-color: #FFFFFF;
+    padding: 10px 50px 40px !important;
+}
+@media (min-width: 992px) {
+    .col-md-5 {
+        width: 41.66667%;
+        
+    }
+}
+.info-dima {
+    background-color: #d2232a;
+    position: relative;
+    padding: 20px 0px 20px 20px;
+    margin: 0;
+}
+.info-dima .joindre {
+    font-size: 25px !important;
+    color: #FFFFFF !important;
+    font-family: Arial,Heklvetica,sans-serif;
+    font-weight: bold;
+}
+.info-dima .contact {
+    margin: 35px 0px;
+}
+.info-dima .contact p,
+.info-dima p {
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.info-dima .contact a {
+    color: #FFFFFF !important;
+    font-size: 25px!important;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.info-dima .contact p #fax.joindre {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.info-dima #numero-unique {
+    width: 30%;
+    top: 15%;
+    right: 20%;
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+hr {
+    margin-top: 0 !important;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid white !important;
+    width: 522px !important;
+}
+.service-client-container .description-title {
+    text-align: center;
+    background-color: #2765ad;
+    padding: 25px 0;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Oswald';
+    margin-top:100px;
+}
+p {
+    margin: 0 0 9px;
+}
+.service-client-container p {
+    color: #000;
+}
+.service-client-container .description-service {
+    background-color: #dcddde;
+    height: 640px;
+    position: relative;
+}
+.service-client-container .description-service .text {
+    margin: 20px;
+}
+a {
+    background-color: transparent;
+    color: gray;
+    text-decoration: none;
+}
+.service-client-container .text-intro {
+    margin: 12% 0;
+}
+@font-face {
+    font-family: bebas_neuebold;
+    src: url(BebasNeue-Regular.ttf);
+}
+.info-dima .contact p {
+    color: #FFFFFF !important;
+    font-size: 20px;
+    font-family: "Open Sans";
+}
+.description-service .text p{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+.page-cms-12{
+    padding: 0 0 20px 0!important;
+}
+.info-dima p {
+    font-size: 15px!important;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.page-content.page-cms.page-cms-7{
+    padding: 0!important;
+}
+.cms-id-7 .breadcrumb{
+
+    margin-left: 15px!important;
+    margin-right: 15px!important;
+    width: auto!important;
+
+}
+.cms-id-7 .center-columns.col-md-12.col-xs-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}

@@ -1,0 +1,58 @@
+.reperage-container {
+  background-color: #fff;
+  padding: 30px 50px;
+}
+.reperage-container .spec-reperage .img-container img {
+  margin: 0 auto;
+}
+.reperage-container p {
+  color: #212121;
+  font-family: Arial, Helvetice, sans-serif !important;
+  font-size: 13px;
+}
+.reperage-container .visu-pdf a {
+  background-color: #2765ad;
+  color: #ffffff;
+  font-family: bebas_neuebold;
+  padding: 20px;
+  font-size: 25px;
+  margin: 10px;
+}
+.formulaire-footer-container .titre {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: bebas_neuebold;
+  color: #eb0400;
+  font-size: 27px;
+  margin-bottom: 9px;
+}
+.formulaire-footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+.formulaire-footer-container {
+  margin-bottom: 15px;
+}
+.page-cms-31 .row.margin-zero {
+  margin: 0;
+}
+.page-content.page-cms.page-cms-31 {
+  padding: 0;
+}
+.reperage-container .spec-reperage .img-container {
+  margin: 50px 0 20px;
+}
+.reperage-container .visu-pdf {
+  text-align: center;
+  margin: 50px 0;
+}
+.page-cms-31 #bs-example-navbar-collapse-1 .nav.navbar-nav {
+  margin-bottom: 2px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .page-cms-31 .sponso-img {
+    display: flex;
+    justify-content: center;
+  }
+}

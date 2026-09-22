@@ -1,0 +1,126 @@
+#main {
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  margin-right: auto;
+}
+
+.contact-form {
+  text-align: left !important;
+  position: relative;
+}
+
+.contact-form h3,
+.contact-rich h4 {
+  text-transform: uppercase;
+  color: #555454 !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 0 15px;
+  line-height: normal;
+}
+
+.contact-form label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-size: 10px !important;
+}
+
+.contact-form input,
+.contact-form select {
+  width: 250px;
+  max-width: 250px !important;
+  height: 30px !important;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  font-size: 10px !important;
+  display: block;
+  text-align: left;
+}
+
+.contact-form input.btn.btn-primary {
+  width: auto;
+  height: 40px !important;
+  padding: 10px 20px !important;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  font-size: 17px !important;
+  line-height: 21px !important;
+  color: #fff;
+  border-radius: 0px !important;
+  font-weight: bold !important;
+  background: #d5292f;
+}
+
+.contact-form .btn.btn-primary {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.contact-form input.form-control {
+  width: 250px;
+  max-width: 250px !important;
+  height: 30px !important;
+  border: 1px solid #ccc;
+  border-radius: inherit;
+  font-size: 10px !important;
+  display: block;
+  text-align: left;
+}
+
+.contact-form input.form-control[id="email"] {
+  width: 250px !important;
+}
+
+.form-group {
+  display: block;
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+}
+
+.form-group .col-md-5,
+.form-group .col-md-7 {
+  display: block;
+  width: 100%;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 0 0;
+}
+
+form {
+  position: relative !important;
+}
+
+label.form-control-label[for="contactform-message"] {
+  position: relative;
+  top: 45px;
+}
+
+form textarea#contactform-message {
+  position: relative;
+  top: 45px;
+  width: 100% !important;
+  max-width: 100% !important;
+  max-height: 220px;
+  background-color: #ffff;
+  height: 800px;
+}
+
+form .form-control-label {
+  font-weight: bold;
+  color: #232323;
+  vertical-align: baseline;
+}

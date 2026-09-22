@@ -1,0 +1,67 @@
+@media (max-width: 767px) {
+    .page-cms.cms-id-7 .breadcrumb {
+        margin: 0px 0px 16px 0px !important;
+    }
+    .page-cms.cms-id-7 .service-client-container .col-md-12 .title {
+        padding: 0px!important;
+    }    
+    .page-cms.cms-id-7 .col-md-12.col-xs-12 {
+    	padding-left: 0!important; 
+    	padding-right: 0!important;    	
+    }
+    .page-cms.cms-id-7 .service-client-container .col-md-12 {
+        padding-left: 0!important; 
+        padding-right: 0!important;
+    } 
+    .page-cms.cms-id-7 .service-client-container .col-md-12 .row.intro .col-md-7 {
+        padding-left: 0!important; 
+        padding-right: 0!important;        
+    } 
+    .page-cms.cms-id-7 .service-client-container .col-md-12 .row.intro .col-md-5 {
+        padding-left: 0!important; 
+        padding-right: 0!important;        
+    }          
+    .cms-id-7 .service-client-container {
+        padding: 20px!important;
+    }
+    .page-cms.cms-id-7 .service-client-container .title {
+    	padding-top: 40px!important;
+    }
+    .page-cms.cms-id-7 .formulaire-footer-container {
+    	padding: 0px!important;
+    } 
+    .page-cms.cms-id-7 .service-client-container .description-service .description-title {
+        margin-top: 25px!important;
+    }
+    .page-cms.cms-id-7 .service-client-container .col-md-12 .row .col-md-4 {
+        padding-left: 0!important; 
+        padding-right: 0!important;         
+    }                   
+}
+
+@media (max-width: 990px) {
+    .page-cms.cms-id-7 .service-client-container .description-service {
+        height: auto;
+    }     
+}
+@media (min-width: 460px) and (max-width: 514px) {
+	.page-cms.cms-id-7 .info-dima img#numero-unique.img-responsive {   
+		margin-right: -45px;
+	}
+}
+@media (min-width: 443px) and (max-width: 459px) {
+	.page-cms.cms-id-7 .info-dima img#numero-unique.img-responsive {
+		margin-right: -60px;
+	}
+}
+@media (max-width: 442px) {
+	.page-cms.cms-id-7 .info-dima img#numero-unique.img-responsive {
+		display: none!important;
+	}
+}
+
+@media (max-width: 390px) {
+	.page-cms.cms-id-7 .info-dima .contact a.joindre {
+		font-size: 15px!important;
+	}
+}   

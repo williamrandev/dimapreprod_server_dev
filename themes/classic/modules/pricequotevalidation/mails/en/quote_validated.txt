@@ -1,0 +1,18 @@
+Quote Validated
+
+Hello,
+
+A quote proposition has been VALIDATED by a customer.
+
+Reference: {validation_reference}
+Customer: {customer_name}
+Email: {customer_email}
+Total HT: {total_ht}
+Total TTC: {total_ttc}
+
+A cart has been created for this customer with all the quote articles. The customer will proceed to checkout.
+
+Please check your back office for more details.
+
+Best regards,
+{shop_name}

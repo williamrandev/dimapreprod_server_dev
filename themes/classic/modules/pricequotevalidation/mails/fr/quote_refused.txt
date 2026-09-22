@@ -1,0 +1,16 @@
+Devis Refusé
+
+Bonjour,
+
+Une proposition de devis a été REFUSÉE par un client.
+
+Référence : {validation_reference}
+Client : {customer_name}
+Email : {customer_email}
+Total HT : {total_ht}
+Total TTC : {total_ttc}
+
+Vous pouvez contacter le client pour comprendre sa décision ou proposer une offre alternative.
+
+Cordialement,
+{shop_name}

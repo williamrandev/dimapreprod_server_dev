@@ -1,0 +1,13 @@
+html body#cms.lang-fr.country-fr.currency-eur.layout-full-width.page-cms.tax-display-enabled.cms-id-9 main section#wrapper div.container div.row div#content-wrapper.js-content-wrapper.col-xs-12 section#main section#content.page-content.page-cms.page-cms-9 div.devis-container.col-md-12 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+}
+
+html body#cms.lang-fr.country-fr.currency-eur.layout-full-width.page-cms.tax-display-enabled.cms-id-9 main section#wrapper div.container {
+	/* padding-left: unset !important; */
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}

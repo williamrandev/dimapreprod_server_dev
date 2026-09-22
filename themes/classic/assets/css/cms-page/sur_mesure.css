@@ -1,0 +1,290 @@
+
+/* @font-face {
+    font-family: 'bebasneue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+         url('BebasNeue-Regular.woff') format('woff'),
+         url('BebasNeue-Regular.ttf') format('truetype'),
+         url('BebasNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'bebas_neuebold;';
+    src:  url('BebasNeue Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#main #content .center-columns .sur-mesure .outils-mesure-container .spec-outils-mesure .titre {
+    font-family: bebas_neuebold!important;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cms-id-24 .page-cms-24 .center-columns{
+    padding: 0!important;
+}
+
+.page-content.page-cms ul, .bold {
+    font-size: 13px;
+    font-weight: bold;
+    color: #212121;
+  
+}
+.page-content.page-cms ul, p {
+    font-size: 90%;
+    vertical-align: baseline;
+    color: #777777;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.42857;
+}
+.DIMAFIT-container .banniere p a {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 40%;
+    /*right: 7%;*/
+    text-align: left;
+    font-family: bebas_neuebold;
+    color: #2765ad;
+    font-size: 100%;
+    line-height: 45px;
+    left: auto;
+}
+.DIMAKID-container p {
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+
+.outils-mesure-container .fabrication-fr p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    color:#212121;
+    font-style: italic;
+}
+
+.formulaire-footer-container .titre {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: oswald!important;
+    color: #eb0400;
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+
+.formulaire-footer-container .button_cms a {
+    background: #eb0400;
+    color: #ffffff;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.outils-mesure-container {
+    background-color: #fff;
+    padding: 50px 50px 30px 50px;
+}
+.formulaire-footer-container {
+   /* margin: 20px ;*/
+    background: #FFFFFF;
+    padding: 20px 50px 40px!important;
+
+}
+.formulaire-footer-container h3.titre{
+    font-size: 21px!important;
+    margin-top: 20px;
+}
+.cms-id-24 .page-cms-24 .sur-mesure .categories-container .titre-container .titre{
+    color: #717171;
+    font-size: 29px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: bebas_neuebold;
+    margin-left: 0!important;
+    text-align: left!important;
+}
+
+
+
+.row.categories-container.row.titre-container.titre, h3{
+    color:#000;
+    text-transform: uppercase;
+    font-family: bebasneue !important;
+ 
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+.img-container.last.right {
+    position: relative; 
+    top: -20px; 
+    transform: scale(0.8); 
+}
+.col-md-4.footer-seo{
+    text-align: right;
+    padding: 1px;
+    font-size: 12px;
+    margin: 3px;
+    background-color: green;
+    
+}
+.bloc-texte-footer {
+
+    font-family: 'arial';
+    padding: 2px;
+    
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-right: 1px solid #e3e3e3;
+    text-align: start;
+    font-size: 12px;
+    width: 33.33333%;
+    font-weight: bold;
+}
+.formulaire-footer-container {
+    /*margin: 20px ;*/
+    background-color: #FFFFFF;
+    padding: 10px 50px 40px;
+}
+.footer-container #footer {
+    color: #777777;
+}
+
+.bloc-texte-footer p {
+    font-size: 12px;
+    margin: 3px;
+    color:#777777 ;
+}
+#footer .footer-container .container .row #contactinfos .collapse {
+    line-height: 1.7;
+    text-transform: uppercase ;
+    margin-top: 15px;
+    font-size: 11px !important;
+    color: #8f8f8f ;
+    width: 200px;
+}
+h1{
+    display: none;
+   }
+
+   .img-container.first.right img {
+    position: relative; 
+    top: 18px; 
+    transform: scale(0.8); 
+    margin-left: 90px;
+}
+.special-dimasport p {
+    font-family: 'Bebas Neue', sans-serif; 
+    color: black; 
+}
+.insta-nav{
+    background-color: #d5292f ;
+}
+.cms-id-24 .page-header{
+    margin-bottom: 0!important;
+}
+.cms-id-24 .page-cms-24 .outils-mesure-container .spec-outils-mesure p{
+    color: #212121!important;
+    font-size: 13px;
+}
+.formulaire-footer-container .button_cms{
+    margin-top: 15px;
+}
+.cms-id-24 .page-cms-24 .sur-mesure .categories-container{
+    background-color: #FFFFFF;
+    padding: 50px;
+    margin-top: 20px;
+}
+.page-cms-24 .sur-mesure .categories-container .grey-line {
+    background-color: #e9e9e9;
+    padding-left: 20px;
+    width: 100%;
+    height: 2px;
+    margin-top: 12px;
+}
+.page-cms-24 .formulaire-footer-container p{
+    font-family: Arial,Helvcetica,sans-serif;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.page-content.page-cms.page-cms-24{
+    padding-top: 0;
+}
+
+
+.page-content.page-cms #prefooter-mobile ul{
+    list-style: none;
+}
+@media (max-width: 767px) {
+    .page-content.page-cms .footer-container{
+        padding-top: 0;
+    }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+    .insta-nav span.glyphicon:after {
+        font-family: "FontAwesome";
+        content: "\f067";
+        font-size: 60px;
+        font-weight: bold;
+        border-radius: 0 !important;
+    }
+}
+
+/* CSS boutton retour */
+.cms-back-btn {
+	position: absolute;
+	bottom: 270px;
+	margin-left: 40px;
+}
+
+@media(max-width:1200px) {
+    .cms-back-btn {
+        bottom: 255px;
+        margin-left: 25px;
+    }
+}
+
+@media(max-width:650px) {
+    .cms-back-btn {
+        bottom: 270px;
+    }
+}
+
+
+
+
+
+/*----------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+
+    .outils-mesure-container {
+   
+    width: 104%;
+    
+    MARGIN-LEFT: -17PX;
+}
+
+    .outils-mesure-container {
+        width: 92%;
+        MARGIN-LEFT: 32PX;
+    }
+.cms-id-24 #content>div>div>div>div>div>div:nth-child(2)>div {
+   
+    width: 89%;
+    margin-left: 46PX!important;
+}
+
+
+.cms-id-24 #content>div>div>div>div>div>div:nth-child(3)>div>div {
+   
+    WIDTH: 89%;
+    MARGIN-LEFT: 46PX;
+}
+}

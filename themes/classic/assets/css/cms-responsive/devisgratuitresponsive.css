@@ -1,0 +1,43 @@
+
+#content > div:nth-child(4) > div > div.row > ul {
+  padding-right: 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding-left: 0;
+}
+
+#content > div:nth-child(4) > div > div.lpqt-quotation-title > div {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+}
+#content > div:nth-child(4) > div > div.row > ul > li > div{
+  border-top: 1px solid #d6d4d4;
+  border-right: 1px solid #d6d4d4;
+
+}
+#content > div:nth-child(4) > div > hr {
+  display: none;
+}
+#main > div > div.cart-grid-body.col-lg-8 > div.card.cart-container > div.cart-overview.js-cart > ul > li > div > div.product-line-grid-right.product-line-actions.col-md-5.col-xs-12 > div > div.col-md-10.col-xs-6 > div > div.col-md-6.col-xs-6.qty > div > span.input-group-btn-vertical > button.btn.btn-touchspin.js-touchspin.js-decrease-product-quantity.bootstrap-touchspin-down{
+  top: 0px;
+}
+#order-confirmation #order-details .h3.card-title{
+  font-size: 22px !important;
+}
+@media (max-width: 756px) {
+  #wrapper .breadcrumb li:last-child {
+    margin-left: 10px;
+    font-family: sans-serif;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cms-id-9 .devis-container .button-container .button-devis {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+}
+#content > div:nth-child(4) > div > div.row > ul > li > div > div.product-line-grid-right.product-line-actions.col-md-4.col-xs-12

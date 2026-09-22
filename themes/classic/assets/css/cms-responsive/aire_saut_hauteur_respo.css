@@ -1,0 +1,121 @@
+   @media (max-width: 768px) { 
+     .cms-id-29    #content > div > div > div.sponso-container > div > div.col-md-4 > div > img {
+    margin: 0px auto;
+    
+}
+
+    .cms-id-29 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div{
+      display: flex;
+          place-items: center;
+         
+
+       }
+          .cms-id-29 #content > div > div > div.insta-nav > div > div.navbar-header > button {
+    background-color: #d5292f;
+    border: none;
+    padding-top: 25px;
+  }
+   .cms-id-29 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(1) > div,
+             .cms-id-29 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(2) > div, 
+               .cms-id-29 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(3) > div {
+                justify-items: center;
+                width: 40%;
+                margin: 0px auto;
+               }
+               .cms-id-29 .insta-nav span.glyphicon:after {
+    font-size: 50px !important;
+    font-weight: inherit !important;
+    border: none;
+  }
+     .cms-id-29 .table{
+        display: none;
+     }
+      
+  .cms-id-29 .center-columns.col-md-12.col-xs-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  .cms-id-29 .col-md-8  , .cms-id-29 .sautoir .padding-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+     .cms-id-29 .sautoir .padding-container{
+              text-align: center;
+              padding-top: 20px;
+
+
+
+     }
+      .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(5) > div > div.sautoir > h3 ,
+        .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(4) > div > div > h3 ,
+          .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(5) > div > div.sautoir > h3
+        {
+    margin-left: 0px;
+}
+    
+
+  .cms-id-29  .col-md-12 , 
+     .cms-id-29 .tableau-recapitulatif .padding-container ,
+        .cms-id-29 .formulaire-footer-container ,
+          .cms-id-29 .garage .padding-container ,
+               .cms-id-29 .amenagement-air .img-container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+        .cms-id-29 #content > div.row > div > div > div > div > div:nth-child(1) > div:nth-child(1) > div > p ,
+              .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(5) > div > p:nth-child(3) ,
+                  .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(5) > div > p:nth-child(2) ,
+                      .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(4) > div > div > p ,
+                           .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div.col-md-12 > p:nth-child(4) ,
+                                  .cms-id-29  #content > div > div > div.row.margin-0-auto > div > div.col-md-12 > p:nth-child(2)
+                  {
+    
+
+
+                 text-align: left;
+
+        }
+              .cms-id-29  #content > div > div > div.row.margin-0-auto > div > div:nth-child(7) > div > div > p {
+    text-align: left;
+    padding: 10px;
+}
+
+       .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(2) > div:nth-child(2) > div > div > img {
+    display: none !important;
+}
+
+               .cms-id-29 .hauteur-container .niveau .documentation > div.img-container {
+    
+    width: 100%;
+   
+    place-items: center;
+}            
+                       .cms-id-29  .hauteur-container .niveau .documentation .explication {
+    text-align: center; 
+    float: none; 
+    margin-bottom: 0px;
+}                  
+                      .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(2) > div:nth-child(1) > div > div.FFA.documentation > div.explication > p:nth-child(2) ,
+                         .cms-id-29  #content > div > div > div.row.margin-0-auto > div > div:nth-child(2) > div:nth-child(1) > div > div.IAAF.documentation > div.explication > p:nth-child(2) ,
+                             .cms-id-29 #content > div > div > div.row.margin-0-auto > div > div:nth-child(2) > div:nth-child(1) > div > div.NF.documentation > div.explication > p
+                      {
+    text-align: center;
+}
+              .cms-id-29 .hauteur-container .niveau .documentation > div.img-container > img {
+    width: 45% !important;
+}
+                  .page-cms-29 .row .elan .img-container{
+                            margin-top: 0px !important;
+                                padding-left: 0px !important;
+}
+
+                     .page-cms-29 .table-sautoir-hauteur .table-title {
+                         display: none !important;
+                    }
+                  
+                    
+                    .cms-29 .sous-titre {
+                                            margin-bottom: 20px !important; 
+                                        }
+}

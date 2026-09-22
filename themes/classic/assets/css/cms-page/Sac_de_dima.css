@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'bebas_neuebold;';
+    src: url('BebasNeue Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.achat-sac {
+    background-color: blue;
+}
+
+.sac-dima-container .achat-sac {
+    background-color: #2765ad;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-family: bebas_neuebold;
+    text-transform: uppercase;
+    transform: translateY(50%);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sac-dima-container .achat-sac p {
+    font-family: oswald;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.sac-dima-container .achat-sac p>a {
+    background-color: #FFFFFF;
+    color: #d5292f;
+    padding: 7px 15px;
+    /*margin-left: 50px;*/
+}
+
+.voyage-sac-dima-container .titre {
+    font-family: oswald !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 32px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.page-content.page-cms ul,
+p {
+    font-size: 13px;
+    color: #212121;
+    text-align: center;
+}
+
+.voyage-sac-dima-container p.legend {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.voyage-sac-dima-container p {
+    color: #212121;
+    font-size: 13px;
+}
+
+.voyage-sac-dima-container h3 {
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #777777;
+    text-align: left;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 23px;
+    margin-left: 0;
+    margin-top: 18px;
+}
+
+h3,
+.h3 {
+    font-size: 23px;
+    margin-left: 60px;
+}
+
+p.mot {
+    font-size: 40px;
+    color: #d5292f;
+    font-family: 'bebas_neuebold' !important;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.formulaire-footer-container {
+    background-color: #FFFFFF;
+    padding: 10px 50px 40px;
+    margin-top: 20px;
+}
+
+.formulaire-footer-container .titre {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: bebas_neuebold !important;
+    color: #eb0400;
+    font-size: 27px;
+    margin-bottom: 9px;
+    margin-left: 2px;
+}
+
+.formulaire-footer-container .titre p {
+    margin-left: 50px !important;
+}
+
+p {
+    font-size: 13px;
+    color: #212121;
+    text-align: left;
+}
+
+.cms-id-48 p.mot {
+    font-size: 40px;
+    color: #d5292f;
+    /*font-family: 'bebas_neuebold' !important;*/
+    text-align: center;
+    margin-top: 100px;
+    font-family: oswald !important;
+    font-weight: 500;
+}
+
+.page-content.page-cms.page-cms-48 {
+    background-color: #fff !important;
+}
+
+@media screen and (max-width:768px) {
+    .cms-id-48 #wrapper .container .breadcrumb {
+        text-align: center;
+        padding: 0 11px;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 10px;
+        line-height: 24px;
+        background: #fff;
+        min-height: 6px;
+        font-family: "Open Sans", sans-serif;
+        color: #000;
+        text-transform: uppercase;
+        overflow: hidden;
+        margin-bottom: 16px;
+        position: relative;
+        z-index: 1;
+    }
+}

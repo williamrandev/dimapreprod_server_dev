@@ -1,0 +1,235 @@
+.page-content.page-cms.page-cms-30 {
+  padding: 0;
+}
+.lancer-container {
+  background-color: #fff !important;
+  padding: 30px;
+}
+.lancer-container .col-md-6:first-child .lancer-img {
+  float: right;
+}
+
+/*.lancer-container .titre {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 45px;
+    margin-top: 45px;
+}*/
+.lancer-container p {
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.lancer-container .sous-titre {
+  font-family: bebasneue;
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 23px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  font-size: normal;
+}
+.table-lancer-poids .table-title {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2765ad;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.table {
+  padding: 0 !important;
+  border-spacing: 0 5px !important;
+  margin-bottom: 5px;
+  background-color: transparent !important;
+}
+.table-lancer-poids .table > tbody > tr > td,
+.table-lancer-poids .table > tbody > tr > th {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  padding: 9px 8px 11px 18px;
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+.table-lancer-poids .caption {
+  text-align: right;
+}
+.img-lancer-poids-container {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 40px;
+}
+.spec-lancer-poids-container .tableau2 .table thead tr td,
+.spec-lancer-poids-container .tableau1 .table thead tr td {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2765ad;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+}
+.spec-lancer-poids-container .table tbody tr td:first-child {
+  color: #ff0000;
+}
+.spec-lancer-poids-container .tableau2 .table tr td,
+.spec-lancer-poids-container .tableau1 .table tr td {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  padding: 9px 8px 11px 18px;
+  color: #212121;
+}
+.lancer-container .titre {
+  font-family: bebasneue;
+  text-transform: uppercase;
+  color: #2765ad;
+  text-align: center;
+  font-size: 40px;
+  margin: 45px auto;
+  font-weight: normal;
+}
+.diametre-cercle-container thead tr td:first-child {
+  background-color: transparent;
+}
+.diametre-cercle-container thead tr td {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2765ad;
+  padding: 10px 0px;
+  margin-bottom: 5px;
+  border-top: none;
+}
+.diametre-cercle-container tbody tr td {
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  color: #212121;
+}
+.table-officiel .table-title {
+  text-align: center;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2765ad;
+  padding: 10px 0px;
+}
+.table-officiel .table thead tr td:first-child {
+  border-width: 0 2px 0 0;
+}
+.table-officiel .table thead tr td span {
+  font-weight: normal;
+  font-style: italic;
+}
+.table-officiel .table tbody tr td {
+  border: none;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.table-officiel p {
+  text-align: right;
+}
+.amenagement-lancer-dima-container .table-container {
+  padding: 0 7%;
+  margin-bottom: 30px;
+}
+table {
+  border-collapse: separate !important;
+}
+.table-officiel .table thead tr td:first-child {
+  border-width: 0 2px 0 0;
+}
+.lancer-marteau-container .pdf {
+  display: none;
+}
+.lancer-marteau-container .desc {
+  margin-top: 20px !important;
+  text-align: center !important;
+  color: #212121 !important;
+  font-weight: 400;
+}
+.table-officiel {
+  margin-top: 100px;
+}
+.table-officiel .table thead tr td {
+  background-color: #dfdfdf;
+  border-width: 0 2px 0 2px;
+  border-style: solid;
+  border-color: #fff;
+  color: #212121;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.table-officiel .table tbody tr td {
+  border: none;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.cms-id-33 .desc:after,
+.cms-id-33 .desc:before {
+  display: none;
+}
+.cms-id-33 .desc {
+  background: none;
+}
+.amenagement-lancer-dima-container .table-container .table tr td:first-child {
+  color: #ff0000;
+}
+.amenagement-lancer-dima-container .table-container .table tr td {
+  border: none;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.amenagement-lancer-dima-container .table-container .table tr td {
+  border: none;
+  background-color: #f5f5f5;
+  color: #212121;
+}
+.formulaire-footer-container .titre {
+  text-align: left;
+  text-transform: uppercase;
+  font-family: bebas_neuebold;
+  color: #eb0400;
+  font-size: 27px;
+  margin-bottom: 9px;
+}
+.diametre-cercle-container thead tr td:first-child {
+  background-color: transparent;
+}
+table td {
+  border: 1px solid #d6d4d4;
+}
+.page-cms-30 #bs-example-navbar-collapse-1 .nav.navbar-nav {
+  margin-bottom: 2px !important;
+}
+.lancer-container .lancer-img .desc {
+  text-align: center;
+  font-family: bebasneue;
+  text-transform: uppercase;
+  color: #373737;
+  font-size: 28px;
+  margin-top: 28px;
+  margin-bottom: 30px;
+  background: none;
+  line-height: 24px;
+}
+.lancer-container .col-md-6:last-child .lancer-img {
+  float: left;
+}
+.lancer-container .point-reglementation-img {
+  margin-bottom: 40px;
+}
+.page-cms-28 .row.margin-0-auto {
+  margin: 0;
+}

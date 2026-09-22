@@ -1,0 +1,47 @@
+@media (max-width: 756px) {
+.footer-container.pages-externes .pre-footer #prefooter-desktop{
+    display: none;
+}
+.footer-container.pages-externes .pre-footer #prefooter-mobile{
+    display: block;
+}
+.page-content .page-cms .page-cms-11 .col-md-7 .col-sm-12 .col-xs-12 .row-left{
+    padding-right: 0; 
+}
+.cms-id-11 .tarifs-livraison-container .tableau-france table {
+    padding: 0 !important;
+    width: 100%;
+
+}
+.cms-id-11 .page-cms-11 .tarifs-livraison-container {
+    padding: 5px;
+}
+#wrapper >.container >.row{
+   margin-left: 0; 
+   margin-right: 0;
+}
+.cms-id-11 .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.page-content .page-cms .page-cms-11 .col-md-7 .col-sm-12 .col-xs-12 .row-left {
+    padding-right: 0;   
+}
+.page-content .page-cms .page-cms-11 .col-md-7 .col-sm-12 .col-xs-12 .row-left {
+    padding-left: 0;  
+}
+.cms-id-11 #content > div.col-md-7.col-sm-12.col-xs-12.row-left{
+    padding-right: 0; 
+}
+.cms-id-11 #content > div.col-md-5.col-sm-12.col-xs-12.row-right{
+    padding-left: 0;
+}
+.cms-id-11 #content > div.col-md-5.col-sm-12.col-xs-12.row-right > div{
+    padding: 25px;
+}
+.cms-id-11 #content > div.col-md-5.col-sm-12.col-xs-12.row-right > div > div.tableau-france > h2{
+    margin-bottom: 15px;
+}
+}

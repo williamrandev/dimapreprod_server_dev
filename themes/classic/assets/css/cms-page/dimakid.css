@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'bebasneue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+         url('BebasNeue-Regular.woff') format('woff'),
+         url('BebasNeue-Regular.ttf') format('truetype'),
+         url('BebasNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+    font-family: 'bebas_neuebold;';
+    src:  url('BebasNeue Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.center-columns .DIMAKID-container .banniere.dimakid p{
+    position: absolute;
+    top: 35%;
+    right: 7%;
+    text-align: left;
+    font-family: oswald!important; 
+    font-size: 18px;
+    font-weight: 500!important;
+    line-height: 45px;
+    left: auto;
+    color: white!important;
+}
+.center-columns .DIMAKID-container p{
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px;
+}
+.center-columns .DIMAKID-container .banniere.dimakid p> a {
+    background-color: #FFFFFF;
+    color: #2765ad;
+    font-size: 100%;
+    margin-left: 10px;
+    font-family: oswald!important;
+    top: 45px;
+    right: 2px;
+    padding: 0px 3px;
+}
+.cms-id-54 #content.page-cms-54,
+.cms-id-55 #content.page-cms-55{
+    background-color: white!important;
+}
+.center-columns .DIMAKID-container .produit.col-md-6 .button.first a,
+.center-columns .DIMAKID-container .produit.col-md-6 .button a{
+    font-family: oswald!important;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff!important;
+ }
+.DIMAKID-container .banniere.dimakid{
+    margin: 50px 0 0;
+
+ }
+ .DIMAKID-container{
+    background-color: #fff;
+    /* padding: 15px 40px 40px 40px; */
+ }
+ .DIMAKID-container .arrow {
+    display: none;
+ }
+.page-cms-25 .background-container .img-container{
+    padding-top: 0;
+    margin-bottom: 15px;
+ }
+.page-cms-25 .insta-nav{
+    margin-bottom: 15px;
+}
+.page-cms-25 #bs-example-navbar-collapse-1{
+    padding-top: 0;
+}
+.page-cms-25 #bs-example-navbar-collapse-1 .nav.navbar-nav{
+    margin-bottom: 0;
+}
+.page-cms-25 #bs-example-navbar-collapse-1 .nav.navbar-nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-cms-25 .banniere.dimakid p {
+    position: absolute;
+    top: 40%;
+    right: 7%;
+    text-align: left;
+    font-family: bebas_neuebold!important;
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 45px;
+    left: auto;
+}
+.page-cms-25 .banniere.dimakid p a {
+    background-color: #FFFFFF;
+    color: #2765ad;
+    font-size: 100%;
+    margin-left: 10px;
+    padding: 7px 5px;
+}
+.DIMAKID-container .text p{
+    font-family: Arial,Helvetica,sans-serif!important;
+    color: #212121;
+    font-size: 13px;
+
+}
+.page-cms-25 .center-columns{
+    padding-right: 0;
+    padding-left: 0;
+}
+.page-content.page-cms.page-cms-25{
+    padding-top: 0;
+}
+.page-cms-25 .col-lg-12.col-md-12{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.DIMAKID-container div.row div.col-md-4 div.img-container.last.right {
+    float: right;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    .cms-id-54  #content > div > div > div > div > div > div:nth-child(1) > div:nth-child(1) > div > p > a {
+        display: none !important;
+    
+}
+
+
+}
+
+
+
+/*---------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+
+.center-columns .DIMAKID-container .banniere.dimakid p {
+      margin-right: 10%;
+}
+
+.container .banniere.dimakid {
+    
+    margin-left: 8%;
+}
+
+
+
+.DIMAKID-container div.row div.col-md-4 div.img-container.last.right {
+    
+    margin-right: 197px;
+}
+
+}

@@ -1,0 +1,55 @@
+.quoi-faire-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.quoi-faire-container h2.title {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+}
+.quoi-faire-container a{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #777;
+}
+.quoi-faire-container p {
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+    font-size: 13px;
+}
+.quoi-faire-container .lien {
+    margin: 30px 0!important;
+}
+.container-pdf {
+    width: 18%;
+    display: inline-block;
+    border: 2px solid #e9e9e9;
+    margin: 0 10px;
+}
+.container-pdf p {
+    color: #2765ad;
+    font-family: bebasneue;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.container-pdf .visu-pdf {
+    overflow: hidden;
+    background-color: #d5292f;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+}
+.container-pdf:last-child {
+    margin-top: 30px;
+}
+.container-pdf a.eyes {
+    background-color: #2765ad;
+    padding: 7px 10px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}

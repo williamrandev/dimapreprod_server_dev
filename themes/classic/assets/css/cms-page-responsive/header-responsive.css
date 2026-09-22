@@ -1,0 +1,225 @@
+@media (max-width:768px){
+    .row.partenaires-content{
+        margin: 0;
+    }
+    #index #content > div.row{
+        margin: 0;
+    }
+    #index #content > div.row #carousel{
+        background: none;
+    }
+    span.material-icons-text {
+        font-size: 16px;
+        top: -4px;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #header > nav.header-nav{
+        background-color: white;
+        border: none;
+        height: 100%;
+        max-height: 100%;
+    }
+    #header > nav > div.container{
+        margin: 0;
+        width: 100%;
+    }
+    #header > nav > div > div > div.hidden-sm-down,
+    #_mobile_language_selector > div > div > button.langs,
+    #mobile_top_menu_wrapper {
+        display: block !important;
+    }
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-5.col-xs-12,
+    #_desktop_user_info,
+    #_desktop_cart,
+    #_mobile_top_menu,
+    #_mobile_currency_selector,
+    #_mobile_contact_link,
+    .header-nav .quotation_block span:after,
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-7.right-nav > div.quotation_block > a:nth-child(2),
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-7.right-nav > div.quotation_block > span{
+        display: none;
+    }
+    #_mobile_logo > h1,
+    #_mobile_logo > h1 > a{
+        display: block;
+        width: 100%;
+    }
+    #_mobile_logo{
+        flex-direction: column;
+        align-items: start !important;
+        width: 55%;
+        padding: 25px 0 0 25px;
+    }
+    #_mobile_user_info{
+        float: left !important;
+        padding-top: 33px;
+        padding-left: 30px;
+    }
+    #_mobile_logo > h1 > a > img.logo.img-fluid{
+        width: 100%;
+        max-height: 100%;
+    }
+    #header  div.header-top div.header-top-right.col-md-10.col-sm-12.position-static div.forcenter{
+        display: none;
+    }
+    #header > div.header-top > div.container{
+        margin: 0;
+        padding: 0 25px;
+        width: 100%;
+    }
+    #_mobile_logo > a > p.logo-text{
+        color: #2266aa;
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin-top: 4px !important;
+        font-size: 14px;
+        display: block;
+        font-weight: 500;
+    }
+    #search_widget > form{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    #header div.header-top div.header-top-right.col-md-10.col-sm-12.position-static{
+        height: 100%;
+    }
+    #header > div.header-top{
+        padding-top: 40px;
+    }
+    #header {
+        box-shadow: none;
+    }
+    #search_widget{
+        margin-bottom: 30px !important;
+    }
+    #menu-icon-mobile > i > span.material-icons-tes{
+        font-size: 16px;
+        position: absolute;
+        margin-top: 3px;
+        margin-left: 12px;
+        font-weight: 700;
+    }
+    .lpqt-quotation-products-count:after{
+        top: 1px !important;
+    }
+    #header .lpqt-block-quotation img {
+        right: 5px;
+    }
+    #mobile_top_menu_wrapper{
+        width: max-content;
+        position: absolute;
+        top: 17px;
+        right: 1px;
+        margin-right: 0;
+        margin-top: -110px;
+        background: none;
+        padding: 0;
+    }
+    #_mobile_cart{
+        width: max-content;
+    }
+    .header-nav .blockcart span.cart-products-count:after {
+        right: 1px;
+        top: -3px;
+        position: relative;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    #_mobile_cart > div.blockcart {
+        margin: 45px 8px 0 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+    #_mobile_cart > div.blockcart.active {
+        right: 0;
+        margin-right: 0 !important;
+    }
+    .header-nav .blockcart.active span.cart-products-count{
+        left: 0;
+    }
+    #header > nav > div > div > div.hidden-sm-down{
+        width: max-content;
+        position: absolute;
+        right: 0;
+        margin-top: 25px;
+    }
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-7.right-nav > div.quotation_block{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-7.right-nav > div.quotation_block > a:nth-child(1),
+    #header > nav > div > div > div.hidden-sm-down > div.col-md-7.right-nav{
+        padding: 0 !important;
+    }
+    #_mobile_language_selector > div.language-selector-wrapper{
+        padding: 0 !important;
+    }
+    #_mobile_language_selector > div > div > button.langs:after {
+        font-family: "FontAwesome";
+        float: right;
+        padding: 1px 0 0 6px !important;
+        content: "\f078";
+        font-size: 16px;
+        line-height: 18px;
+        color: #b5b4b4;
+        top: 9px;
+        position: relative;
+    }
+    #wrapper{
+        display: block !important;
+    }
+    #_mobile_language_selector > div > div > ul.dropdown-menu{
+        min-width: 100%;
+        left: -10px;
+        padding: 0;
+        background-color: #f1f1f1;
+        border: none;
+    }
+    #_mobile_language_selector > div > div > ul > li a.dropdown-item{
+        padding: 0;
+        text-align: center;
+    }
+    #_mobile_language_selector > div > div > ul >  li a img.language-flag{
+        width: 27px;
+    }
+    #_mobile_language_selector > div > div > ul > li {
+        padding: 5px 0;
+    }
+    #_mobile_language_selector > div > div > ul > li.current {
+        background-color: #e0e0e0;
+    }
+    #_mobile_user_info > div.user-info{
+        margin-left: 0 !important;
+    }
+}
+
+/* 📱 Petit mobile : 0px → 480px
+@media (max-width: 480px) {
+    #header .header-nav .blockcart .header {
+          margin-top: -6.878px;
+          margin-right: 80px;
+    }
+   #_desktop_quotation{
+    margin-top: 22px;
+   }
+    #_mobile_logo {
+        
+        padding: 25px 0 0 0px;
+    }
+
+    #_mobile_user_info > div > a.account > img{
+            margin-right: 8px;
+    }
+    #header .header-nav .user-info .account {
+    margin-left: -0.375rem;
+}
+#_mobile_language_selector{
+        margin-top: -55px;
+    margin-right: 17px;
+}
+ } */

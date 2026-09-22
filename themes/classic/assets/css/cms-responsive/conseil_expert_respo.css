@@ -1,0 +1,24 @@
+@media(max-width: 768px){
+    
+    .cms-id-10 .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .cms-id-10 .container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+    }
+
+    .cms-id-10 #prefooter-desktop{
+        display: none;
+    }
+
+    .cms-id-10 #prefooter-mobile{
+        display: block;
+    }
+
+}
+
+

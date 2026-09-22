@@ -1,0 +1,9 @@
+{shop_url}
+
+Hello,
+
+A new price quote has been posted on {date}:
+
+{details_html}
+
+[{shop_name}]({shop_url}) thank you for your trust.

@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+    .cms-id-39 #menu-icon-mobile {
+        padding: 15px !important;
+
+    }
+
+    .cms-id-39 .material-icons {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .cms-id-39 .col-md-12,
+    .cms-id-39 .col-xs-12,
+    .cms-id-39.col-md-7 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cms-id-39 .sur-mesure-equipement-container {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 30px !important;
+        padding-top: 30px !important;
+        padding-right: 30px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .cms-id-39 .formulaire-footer-container {
+        padding-left: 30px !important;
+        padding-top: 10px !important;
+        padding-right: 30px !important;
+        padding-bottom: 40px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+
+
+
+
+
+
+
+}

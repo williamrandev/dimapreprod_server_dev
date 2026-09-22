@@ -1,0 +1,53 @@
+#prefooter-mobile {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+#prefooter-mobile .bxslider-prefooter {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#prefooter-mobile .bxslider-prefooter li {
+  min-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#prefooter-mobile .bxslider-prefooter img {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+}
+#prefooter-mobile::before,
+#prefooter-mobile::after {
+  --hit: 44px;
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: var(--hit);
+  height: var(--hit);
+  transform: translateY(-50%);
+  border-radius: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  pointer-events: none;
+}
+#prefooter-mobile::before {
+  left: 5px;
+  content: "⟨";
+  color: #c0c0c0;
+  font-size: 40px;
+}
+#prefooter-mobile::after {
+  right: 5px;
+  content: "⟩";
+  color: #c0c0c0;
+  font-size: 40px;
+}

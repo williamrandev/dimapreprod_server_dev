@@ -1,0 +1,35 @@
+.sur-mesure-equipement-container .titre {
+  font-family: bebasneue;
+  text-transform: uppercase;
+  color: #2765ad;
+  font-size: 40px;
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: normal;
+}
+.sur-mesure-equipement-container {
+  background-color: #fff;
+  padding: 50px;
+}
+.page-content.page-cms.page-cms-34 {
+  padding: 0 0 20px 0 !important;
+}
+.page-content.page-cms.page-cms-52 {
+  padding: 0;
+}
+.page-cms-52 .formulaire-footer-container a.button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #eb0400;
+  font-size: 20px;
+  display: inline;
+  padding: 10px 15px;
+  font-family: bebas_neuebold;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cms-id-41 .sur-mesure-equipement-container {
+    padding: 30px;
+  }
+}

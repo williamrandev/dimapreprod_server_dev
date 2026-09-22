@@ -1,0 +1,17 @@
+.youtubevideocontainer .col-md-12{
+    margin-top: 0;
+}
+.youtubevideocontainer{
+    margin-bottom: 25px;
+}
+.page-content.page-cms {
+    padding: 1.25rem;
+    text-align: justify;
+    background: none !important;
+}
+li#category-2 > a.dropdown-item{
+    width: 352px;
+}
+li#category-2 {
+    width: auto;
+}

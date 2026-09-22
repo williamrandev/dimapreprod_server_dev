@@ -1,0 +1,109 @@
+.page-authentication .page-header h1{
+    display: block;
+    font: 600 18px / 22px "Open Sans", sans-serif;
+    color: #555454;
+    text-transform: uppercase;
+    padding: 0px 0px 17px 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d6d4d4;
+    overflow: hidden;
+    text-align: left;
+    margin-top: 18px;
+}
+.page-authentication .container{
+    padding-left: 0;
+}
+.page-authentication #content{
+    padding: 0;
+}
+.page-authentication #content .login-form hr{
+    display: none;
+}
+.page-authentication #content .login-wrapper .register-container,
+.page-authentication #content .login-wrapper .login-container{
+    background: #fbfbfb;
+    border: 1px solid #d6d4d4;
+    padding: 14px 18px 13px;
+    margin: 0 0 30px 0;
+    line-height: 23px;
+    width: 49%;
+}
+.page-authentication #content .login-wrapper .register-container .register-title,
+.page-authentication #content .login-wrapper .login-container .login-title{
+    text-align: left;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+.page-authentication #content .login-wrapper .register-container p,
+.page-authentication #content .login-wrapper .login-container p{
+    font-size: 13px;
+}
+.page-authentication #content .login-wrapper .register-container label,
+.page-authentication #content .login-wrapper .login-container label{
+    font-weight: normal;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+.page-authentication #content .login-wrapper .register-container strong,
+.page-authentication #content .login-wrapper .login-container strong{
+    font-weight: normal;
+}
+.page-authentication #content .login-wrapper .register-container .btn-register{
+    border: 1px solid #ddbbbb;
+    padding: 10px 14px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.page-authentication #content .login-wrapper .register-container .no-account{
+    width: fit-content;
+    border: 1px solid;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-color: #db8600 #d98305 #c86d26 #d98305;
+}
+.page-authentication #content .login-wrapper .register-container .btn-register .material-icons{
+    font-size: 23px !important;
+}
+label[for="field-email"] {
+    font-size: 0 !important;
+    position: relative;
+} 
+.lang-fr label[for="field-email"]::after {
+    content: "Adresse e-mail";
+    font-size: 14px;
+    color: inherit;
+}
+.lang-en label[for="field-email"]::after {
+    content: "Email address";
+    font-size: 12px;
+    color: inherit;
+}
+.page-authentication #content .form-group.row {
+    display: flex;
+    flex-direction: column;
+}
+.page-authentication #content .form-group {
+    margin-bottom: 0 !important;
+}
+.page-authentication #content .forgot-password {
+    margin-top: 5px;
+    padding-bottom: 0;
+    font-size: 12px;
+}
+.page-authentication #content .login-wrapper .login-container .btn-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+.page-authentication #content .login-wrapper .login-container .btn-login i{
+    margin-top: -7px;
+    font-size: 22px;
+}
+.page-authentication #content .login-wrapper .login-container .login-fields .form-control{
+    outline: none;
+}
+.page-authentication #content .login-wrapper .login-container .login-fields .form-control:focus{
+    outline: none;
+    border: 1px solid #ccc;
+}

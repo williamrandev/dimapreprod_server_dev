@@ -1,0 +1,40 @@
+.page-cms-20 .gym-mul-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.page-cms-20 .gym-mul-container .title {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: left!important;
+    margin-left: 0;
+    font-weight: normal;
+}
+.page-cms-20 .gym-mul-container p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+.page-cms-20 .gym-mul-container .photos-container {
+    padding: 0px 12%;
+}
+.page-cms-20 .formulaire-footer-container hr {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0;
+    border-top: 1px solid #eeeeee!important;
+    width: 100%!important;
+}
+.page-cms-20 .formulaire-footer-container .button{
+    background-color: #eb0400;
+    width: 142px;
+    /*padding: 5px 4px;*/
+    color: gray;
+    font-size: 13px;
+}
+.page-content.page-cms.page-cms-20{
+    padding: 0;
+}

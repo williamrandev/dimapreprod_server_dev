@@ -1,0 +1,85 @@
+.footerPrint{
+    display: none;
+}
+@media print{
+    #header .header-nav #menu-icon,
+    .container .breadcrumb ol li,
+    .colonne-pictos-produit,
+    .product-description,
+    .product-add-to-cart.js-product-add-to-cart,
+    .btn.btn-comment.post-product-comment,
+    .tabs,
+    .featured-products.clearfix.mt-3,
+    #footer,
+    .js-qv-mask.mask.scroll,
+    .scroll-box-arrows.scroll,
+    .alert.alert-info,
+    .hiden-print,
+    .forcenter,
+    .produits-similaires.produits-similaires-container,
+    .block.similare-products-container,
+    .js-qv-mask.mask
+    {
+       
+        display: none!important;
+    }
+    .header-top .container .row{
+        display: block!important;
+    }
+
+    .header-top-right  #search_widget.search-widgets .ui-autocomplete-input{
+        display: block!important;
+        width: 100%;
+
+    }
+
+    #_desktop_logo.hidden-sm-down{
+
+        display: block!important;
+        width: 100%;
+    }
+   .logo-text{
+        text-align: center;
+        font-size: 30px!important;
+    }
+    
+    .col-md-6 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        background-color: transparent!important;
+      }
+    
+   .images-container.js-images-container .product-cover picture > img.js-qv-product-cover.img-fluid{
+        /*display: block;*/               
+        border: 2px solid #eee;
+        width: 50%!important;
+        height:auto;
+        margin-left: 120px;
+           }
+    .row.product-container.js-product-container .col-md-6 .h1{
+        float: none !important;        /* DÃ©sactive le float */
+        width: 100% !important;
+        flex: 0 0 100% !important;     /* Force la largeur si Flexbox actif */
+        clear: both !important;
+        /*margin-right: 5px!important;*/
+
+    }
+    .show-print{
+        display: block;
+    }
+    .product-actions.js-product-actions .product-variants.js-product-variants{
+        display: none;
+    }
+    
+    .footerPrint {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+        text-align: center;
+        color: #000;          
+    }
+}

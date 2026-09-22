@@ -1,0 +1,51 @@
+.page-cms-17 .conseil-container {
+    background-color: #fff;
+    padding: 30px;
+}
+.page-cms-17 .conseil-container .title {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: left;
+    margin-left: 0;
+    font-weight: normal;
+}
+.page-cms-17 .conseil-container .sous-titre {
+    font-family: bebas_neuebold;
+    text-transform: uppercase;
+    color: #373737;
+    font-size: 21px;
+    margin-bottom: 18px;
+    padding-top: 6px !important;
+    font-weight: normal;
+}
+.page-cms-17 .conseil-container p{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    color: #000;
+}
+.page-cms-17 .formulaire-footer-container{
+    background-color: transparent!important;
+    padding-left: 0!important;
+}
+.formulaire-footer-container .titre {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: bebas_neuebold;
+    color: #eb0400;
+    font-size: 27px;
+    margin-bottom: 9px;
+}
+.page-cms-17 .formulaire-footer-container .titre {
+    font-family: bebas_neuebold!important;
+    font-size: 27px!important;
+    margin-top: 0;
+    margin-bottom: 9px!important;
+}
+
+.page-cms-17 .formulaire-footer-container .button_cms a{
+    font-family: Arial,Helvetica,sans-serif!important;
+}

@@ -1,0 +1,65 @@
+@media (max-width: 768px) {
+  
+
+                  .cms-id-50 #main .page-content, #main .page-footer, #main .page-header {
+ 
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+        .cms-id-50  .col-md-4.catalogues-issuu {
+    padding-bottom: 15px;
+    text-align: center;
+}
+         .cms-id-50    a.lientel {
+    
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px;
+    background: #2765ad;
+    display: inline-block;
+    font-weight: bold;
+    font: inherit;
+    font-size: 82%;
+}
+                 .cms-id-50 .col-md-4.catalogues-issuu {
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

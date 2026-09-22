@@ -1,0 +1,52 @@
+@media(max-width:768px) {
+    .cms-id-38 .sur-mesure-equipement-container {
+        background-color: #fff;
+        padding: 30px;
+        margin-top: 15px !important;
+        margin-bottom: 20px !important;
+        margin-left: 0px !important;
+
+        margin-right: 0px !important;
+
+    }
+
+    .cms-id-38 .col-md-12,
+    .cms-id-38.col-md-5 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .cms-id-38 .img-container .img-responsive {
+
+        width: 100%;
+    }
+
+    .cms-id-38 .formulaire-footer-container .titre {
+
+        font-family: bebas_neuebold !important;
+
+        font-size: 27px !important;
+
+    }
+
+    .cms-id-38 .formulaire-footer-container h3.titre {
+        font-size: 27px !important;
+
+    }
+
+
+    .cms-id-38 .center-columns.col-md-12.col-xs-12,
+    .cms-id-38 .col-md-6 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .cms-id-38 .formulaire-footer-container {
+        background-color: #FFFFFF;
+        padding: 10px 30px 40px 25px !important;
+        margin: 0px !important;
+    }
+}

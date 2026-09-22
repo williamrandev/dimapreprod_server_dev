@@ -1,0 +1,16 @@
+Quote Refused
+
+Hello,
+
+A quote proposition has been REFUSED by a customer.
+
+Reference: {validation_reference}
+Customer: {customer_name}
+Email: {customer_email}
+Total HT: {total_ht}
+Total TTC: {total_ttc}
+
+You may want to contact the customer to understand their decision or propose an alternative offer.
+
+Best regards,
+{shop_name}

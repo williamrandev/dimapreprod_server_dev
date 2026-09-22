@@ -1,0 +1,28 @@
+@media(max-width:768px) {
+
+    #content>div.moyen-paiment-container.col-md-12>h2>span {
+        font-family: 'Oswald', sans-serif;
+
+        font-weight: 400;
+    }
+
+    #content>div.moyen-paiment-container.col-md-12>h2 {
+
+        margin-top: 18px;
+    }
+
+    .cms-id-12 .moyen-paiment-container {
+
+        margin-bottom: 0px !important;
+
+    }
+
+    /* pour le slider general */
+    div#prefooter-mobile {
+        display: block !important;
+    }
+
+    div#prefooter-desktop {
+        display: none !important;
+    }
+}

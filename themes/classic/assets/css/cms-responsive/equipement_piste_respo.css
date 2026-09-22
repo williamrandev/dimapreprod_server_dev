@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+  section.page-content.page-cms.page-cms-41 .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .cms-id-41 .formulaire-footer-container {
+    padding: 10px 30px 40px !important;
+    margin: 40px 15px !important;
+  }
+}

@@ -1,0 +1,35 @@
+.page-cms-53 .sac-container {
+    background: #fff;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 5px;
+}
+
+.page-cms-53 .sac-container .text-container p {
+    color: #212121;
+    font-size: 13px;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.page-cms-53 #bs-example-navbar-collapse-1 {
+    padding: 0;
+}
+
+.page-cms-53 #bs-example-navbar-collapse-1 .nav.navbar-nav {
+    margin-bottom: 0;
+}
+
+.page-cms-53 .voyage-sac-dima-container {
+    background-color: #fff;
+    padding: 20px 50px 50px 50px;
+}
+
+.page-cms-53 .insta-nav li.sac {
+    width: 50%;
+}
+
+.page-content.page-cms.page-cms-53 {
+    padding: 0;
+}

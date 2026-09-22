@@ -1,0 +1,112 @@
+.cms-id-47 #content>div>div {
+    padding: 0;
+}
+
+.cms-id-47 #content-wrapper {
+    padding: 0;
+}
+
+.cms-id-47 #content>div>div>div>div>div {
+    padding: 0;
+}
+
+@media screen and (max-width:766px) {
+    .cms-id-47 #content>div>div {
+        padding: 0;
+    }
+
+    .cms-id-47 #content>div>div>div {
+        padding: 30px;
+    }
+
+    .cms-id-47 #download-fiches {
+        background-color: #d5292f;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: bebas_neuebold;
+        font-size: 17px !important;
+        margin: 30px 0;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .cms-id-47 #download-fiches::after {
+        display: none;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div {
+        padding: 0 !important;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-7 {
+        padding: 0 !important;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-5 {
+        padding: 0;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-5>div>img {
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .cms-id-47 .container-pdf {
+        width: 100%;
+        float: left;
+        border: 2px solid #e9e9e9;
+        margin: 30px auto;
+    }
+
+    .cms-id-47 .container-pdf .img-responsive {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 767px) {
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-5>div>img {
+        width: 100%;
+    }
+
+    .cms-id-47 #download-fiches {
+        background-color: #d5292f;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: bebas_neuebold;
+        padding: 7px 30px;
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .cms-id-47 #content>div>div {
+        padding: 0;
+    }
+
+    .cms-id-47 #content>div>div>div {
+        padding: 30px;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div {
+        padding: 0;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-7>div>div {
+        text-align: center;
+    }
+
+    .cms-id-47 #content>div>div>div>div>div>div:nth-child(1)>div.col-md-5>div>img {
+        margin: 0 auto;
+        width: 60%;
+        padding-top: 25px;
+    }
+
+    .cms-id-47 .container-pdf {
+        width: 30%;
+        border: 2px solid #e9e9e9;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+}

@@ -1,0 +1,66 @@
+.page-cms-33 .sur-mesure-equipement-container{
+	background-color: #fff;
+    padding: 30px;
+
+}
+.page-cms-33 .sur-mesure-equipement-container .titre {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.page-cms-33 .sur-mesure-equipement-container {
+    margin: 0px!important;
+}
+.page-cms-33 .center-columns.col-md-12.col-xs-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.page-cms-33 .center-columns.col-md-12.col-xs-12 .row .row .col-md-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+.page-cms-33 .formulaire-footer-container {
+    margin: 15px 0px 15px 0px!important;
+}
+.page-cms-33 #content-wrapper .js-content-wrapper.col-xs-12 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;     
+}
+.page-cms-33 .breadcrumb {
+    margin: 0px 15px 16px 15px!important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 0px!important; 
+    width: auto!important;
+}
+.sur-mesure-equipement-container p.legend { 
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+     color: #212121!important;
+     font-size: 13px;
+}
+.page-content.page-cms.page-cms-33,
+.page-content.page-cms.page-cms-37,
+.page-content.page-cms.page-cms-38,
+.page-content.page-cms.page-cms-39,
+.page-content.page-cms.page-cms-40,
+.page-content.page-cms.page-cms-41,
+.page-content.page-cms.page-cms-42,
+.page-content.page-cms.page-cms-43,
+.page-content.page-cms.page-cms-44,
+.page-content.page-cms.page-cms-45
+{
+	padding: 0 0 20px 0!important;
+}
+.formulaire-footer-container p{
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px;
+}
+.sur-mesure-equipement-container .ligne1,
+.sur-mesure-equipement-container .ligne2 {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 768px){
+    .cms-id-23 .col-sm-6{
+        width: 100%;
+    }
+    
+    .cms-id-23 .page-cms-23 .organisation-container .col-md-7 .first {
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+
+    .cms-id-23 .col-xs-12{
+        padding-right: 0px;
+        padding-left: 0px
+    }
+
+    .cms-id-23 .img-container .img-responsive{
+        margin-bottom: 0px;
+    }
+
+    .cms-id-23 .page-content.page-cms{
+        padding: 0px;
+    }
+
+    .cms-id-23 .formulaire-footer-container{
+        padding: 0 !important;
+    }
+
+    .cms-id-23 .col-md-12{
+        padding: 0px;
+    }
+    .page-cms-23 .organisation-container .padding-container .col-md-5.col-sm-6.col-xs-12 .img-container.last{
+        padding-right: 0;
+    }
+}

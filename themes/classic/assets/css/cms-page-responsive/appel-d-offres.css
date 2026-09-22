@@ -1,0 +1,17 @@
+@media(max-width:768px){
+    .cms-id-18 .page-content.page-cms.page-cms-18 .center-columns.col-md-12.col-xs-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page-cms-18 .app-off-container .sous-titre{
+      text-align: left;
+    }
+    .page-cms-18 .center-columns.col-md-12.col-xs-12 .app-off-container {
+    
+        padding: 30px;
+    }
+    .page-cms-18 .center-columns.col-md-12.col-xs-12 .app-off-container .col-md-12,
+    .page-cms-18 .app-off-container  .col-md-12 .photos-container .img-container .col-md-6{
+        padding: 0;
+    }
+}

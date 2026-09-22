@@ -1,0 +1,89 @@
+.page-cms-51 .collectivite-container {
+    background-color: #fff;
+    padding: 30px;
+}
+.page-cms-51 .collectivite-container .titre {
+    font-family: bebasneue;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0 15px;
+    margin-left: 0;
+    text-align: left!important;
+}
+.page-cms-51 .collectivite-container p {
+    color: #212121;
+    padding: 0 15px;
+    font-size: 13px;
+}
+.page-cms-51 .collectivite-container .spec-collectivite .img-container img {
+    margin: -100px auto 0;
+}
+.page-cms-51 .collectivite-container .spec-collectivite .img-container {
+    overflow: hidden;
+}
+.page-cms-51 .formulaire-footer-container a.button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #eb0400;
+    font-size: 20px;
+    display: inline;
+    padding: 10px 15px;
+    font-family: bebas_neuebold;
+    margin-bottom: 20px;
+}
+.page-cms-51 .clients-aide {
+    background-color: #fff;
+    padding: 10px 50px 40px;
+    color: #00060b;
+}
+.page-cms-51 .clients-aide .titre-container .titre {
+    color: #717171;
+    font-size: 29px;
+    text-transform: uppercase;
+    font-family: bebas_neuebold;
+    margin-left: 0;
+    margin-top: 18px;
+}
+.page-cms-51 .clients-aide .grey-line {
+    background-color: #e9e9e9;
+    padding-left: 20px;
+    width: 100%;
+    height: 2px;
+    margin-top: 32px;
+}
+.page-cms-51 .clients-aide-img .photo-container .text {
+    font-family: bebas_neuebook;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80%;
+    left: 47%;
+    transform: translateX(-50%) translateY(-50%) scaleY(1.2);
+    font-size: 37px;
+    width: 100%;
+    margin: 0 25px;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.page-cms-51 .clients-aide-img .photo-container .text:before {
+    content: '';
+    background: url(img/left_arrow_arrow.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 25px;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.page-cms-51 .clients-aide-img .photo-container .text .bas {
+    padding-left: 35px;
+}
+.page-content.page-cms.page-cms-51 .center-columns.col-md-12.col-xs-12{
+    padding: 0;
+}

@@ -1,0 +1,171 @@
+@media(max-width:768px) {
+
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(1)>div:nth-child(1)>div>div>img {
+        display: none !important;
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(1)>div:nth-child(1)>div>p {
+        text-align: center;
+        font-size: 18px;
+        color: #717171 !important;
+        position: relative;
+
+        padding-top: 10px;
+        margin-top: 20px;
+        line-height: 30px;
+        right: 0%;
+        font-family: bebas_neuebold
+    }
+
+
+    .img-container .img-responsive {
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div {
+        /* padding: 40px 30px !important; */
+        padding-top: 15px !important;
+        padding-bottom: 40px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    .cms-id-26 .DIMAFIT-container .reveil .h3dimafit {
+        font-size: 23px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    #content-wrapper {
+        padding: 0px !important;
+
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(2)>div>div.row>div>div>div>div>div>img {
+        MARGIN-RIGHT: 0;
+        MARGIN-LEFT: 0;
+        WIDTH: 100%;
+        padding: 0;
+    }
+
+    .cms-id-26 #wrapper>div {
+        background-color: #e9e9e9;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 20px !important;
+        width: 100%;
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(2)>div>div.row>div,
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(2)>div>div.row>div>div>div>div {
+
+        padding-left: 0%;
+        padding-right: 0%;
+
+
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(2)>div>div.row>div>div>div>div>div>center {
+
+        font-size: 13px;
+        color: #777;
+        line-height: 18px;
+        font-size: 13px !important;
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(1)>div:nth-child(1)>div>p>a {
+        position: relative;
+        display: flex;
+        font: inherit;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: #e9e9e9;
+        color: #d5292f;
+        padding: 7px 15px;
+        margin-left: 0px !important;
+        display: block;
+        margin-top: 20p
+    }
+
+    .cms-id-26 #content>div.row>div>div>div {
+        background-color: white;
+        margin-top: 10px;
+
+    }
+
+    .cms-id-26 #content>div.row,
+    .cms-id-26 #content>div.row>div>div {
+
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .cms-id-26 #content>div.row>div,
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(2)>div,
+    .cms-id-26 #content>div.row>div>div>div,
+    .cms-id-26 #content>div.center-columns.col-md-12.col-xs-12>div>div>div,
+    .cms-id-26 #content>div.col-lg-12.col-md-12 {
+
+
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .cms-id-26 #content>div.center-columns.col-md-12.col-xs-12 {
+        float: none;
+    }
+
+    /* .cms-id-26 .img-container.first.right img */
+
+
+    .cms-id-26 .insta-nav span.glyphicon:after {
+        font-size: 50px !important;
+        font-weight: inherit !important;
+        border: none;
+    }
+
+    .cms-id-26 #content>div.col-lg-12.col-md-12>div.insta-nav>div>div.navbar-header>button {
+        padding-top: 25px;
+        padding-bottom: 10px;
+        padding-left: 0px !important;
+        background-color: #d5292f;
+        border: none;
+    }
+
+
+    .cms-id-26 #content {
+
+        padding-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+        PADDING-RIGHT: 0;
+    }
+
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(1)>div:nth-child(2)>div>img,
+    .cms-id-26 #content>div.row>div>div>div>div>div:nth-child(1)>div:nth-child(3)>div {
+        margin: 10px auto !important;
+        place-items: center;
+    }
+
+    /* .cms-id-26 #content > div.center-columns.col-md-12.col-xs-12 > div > div > div > div , .cms-id-26 #content > div.col-lg-12.col-md-12 > div {
+    margin-left: 15px;
+    margin-right: 15px;
+} */
+
+    .cms-id-26 #content>div.col-lg-12.col-md-12 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+
+    }
+
+    .cms-id-26 #content>div.col-lg-12.col-md-12>div {
+        margin-bottom: 0px;
+
+
+    }
+}

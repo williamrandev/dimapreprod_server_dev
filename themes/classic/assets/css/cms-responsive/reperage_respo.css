@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px) {
+  .cms-id-31 .insta-nav .navbar-header .navbar-toggle {
+    background-color: transparent;
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .cms-id-31 .formulaire-footer-container {
+    padding-left: 0 !important;
+  }
+  .cms-id-31
+    .center-columns
+    .margin-zero
+    .reperage-container
+    div.row
+    div.col-md-12 {
+    padding: 0;
+  }
+  .cms-id-31 .center-columns {
+    padding: 0;
+  }
+  .cms-id-31 .sponso-img .row {
+    display: flex;
+    transform: scale(1.2);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .cms-id-31 .sponso-container .row .col-md-4 .img-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .cms-id-31 .center-columns {
+    padding: 0px 85px;
+  }
+}
+
+.cms-id-31 .insta-nav {
+  margin: 15px 0;
+}
+
+.cms-id-31 .formulaire-footer-container > hr {
+  margin-top: 0 !important;
+  margin-bottom: 18px;
+  border-top: 1px solid #eeeeee !important;
+  width: 100% !important;
+}

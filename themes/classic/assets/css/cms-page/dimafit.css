@@ -1,0 +1,207 @@
+/* @font-face {
+    font-family: 'bebasneue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+         url('BebasNeue-Regular.woff') format('woff'),
+         url('BebasNeue-Regular.ttf') format('truetype'),
+         url('BebasNeue-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: 'bebas_neuebold;';
+    src:  url('BebasNeue Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.button.first a {
+    text-transform: uppercase;
+    background-color: #eb0400; /* Fond rouge */
+    font-size: 20px;
+    display: inline-block; 
+    padding: 10px 15px;
+    font-family: 'bebas_neuebold', sans-serif;
+    -webkit-text-decoration-skip: objects;
+    color: #fff;
+    text-decoration: none;
+}
+.button a {
+    text-transform: uppercase;
+    background-color: #eb0400; 
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-decoration-skip: objects;
+    color: #fff;
+    text-decoration: none;
+}
+/* Style pour le texte "DÉCOUVREZ NOS PRODUITS DIMAFIT EN" */
+.page-cms-55 .DIMAFIT-container .banniere p {
+    position: absolute;
+    top: 25%;
+    right: 9%; 
+    text-align: left;
+    font-family: oswald!important; 
+    color: #FFFFFF;
+    /* font-size: 20px; */
+    line-height: 45px;
+    padding-right: 20px;
+
+}
+
+/* Style pour le lien "CLIQUANT-ICI" */
+.page-cms-55 .DIMAFIT-container .banniere a {
+    position: absolute;
+    top: 53%;
+    right: 5%;
+    text-align: left;
+    font-family: oswald!important;
+    color: #eb0400; 
+    font-size: 18px;
+    line-height: 45px;
+    background-color: #fff;
+    /*padding-left:5px;
+    padding-right: 10px;*/
+    font-weight: 500!important;
+}
+.DIMAFIT-container .text p{
+    color: #212121!important;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px!important;
+
+}
+.DIMAFIT-container .reveil .h3dimafit {
+    font-family: Arial,helvetica,sans-serif!important;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 18px;
+    font-size: 25px;
+    font-weight: normal!important;
+    text-transform: none;
+}
+.DIMAFIT-container .reveil center>p{
+    margin-top: 50px;
+    color: #777;
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px;
+}
+.DIMAFIT-container .img-container.first {
+    margin-top: 40px;
+}
+.DIMAFIT-container .banniere{
+    margin-top: 40px;
+}
+.DIMAFIT-container .img-container.last {
+    width: 70%;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+.page-content.page-cms.page-cms-55{
+    /* padding: 55px 50px 40px 50px!important; */
+    padding: 55px 0 40px 0!important;
+}
+.page-cms-26 .background-container .img-container {
+    margin-bottom: 15px;
+}
+.page-cms-26 .insta-nav{
+    margin-bottom: 15px;
+}
+.page-cms-26 {
+    padding-top: 0;
+}
+.page-cms-26 .nav.navbar-nav{
+    margin-bottom: 0;
+}
+.page-cms-26 .nav.navbar-nav li a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.page-cms-26 .insta-nav .container-fluid div.collapse.navbar-collapse{
+        padding-top: 0!important;
+}
+
+.page-cms-26 .banniere p {
+    position: absolute;
+    top: 43%;
+    right: 6%;
+    text-align: left;
+    font-family: bebas_neuebold;
+    color: #FFFFFF;
+    font-size: 23px;
+    line-height: 45px;
+}
+.page-cms-26 .DIMAFIT-container .banniere p a {
+    background-color: #FFFFFF;
+    color: #d5292f;
+    padding: 0px 5px;
+    right: 0;
+    top: 43px;
+    margin-left: 10px;
+}
+.page-cms-26 .DIMAFIT-container {
+    background-color: #fff;
+    padding: 15px 50px 40px 50px;
+}
+.page-content.page-cms.page-cms-26{
+    padding-top: 0;
+}
+.page-cms-26 .DIMAFIT-container .reveil center{
+    
+    color: #777;
+    font-family: Arial,Helvetica,sans-serif!important;
+    font-size: 13px;
+}
+.page-cms-55 .DIMAFIT-container .reveil center div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #777;
+}
+.page-cms-55 .reveil .img-container {
+    margin-bottom: 50px;
+}
+
+div.DIMAFIT-container div.row div.col-md-4 div.img-container.last.right {
+	float: right;
+	margin-right: 40px;
+	width: 70%;
+	transform: scale(1.0);
+}
+
+
+
+
+
+/*--------------------------------*/
+@media (min-width: 768px) and (max-width: 991px){
+.DIMAFIT-container .banniere {
+    
+    margin-left:10%!important;
+}
+
+.DIMAFIT-container .banniere p {
+    margin-right: 11%;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .row .col-md-12 .text {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.h3dimafit{
+
+    margin-left: 0%;
+}
+
+.DIMAFIT-container .reveil center div {
+
+    padding-left: 6PX;
+    padding-right: 6PX;
+}
+}

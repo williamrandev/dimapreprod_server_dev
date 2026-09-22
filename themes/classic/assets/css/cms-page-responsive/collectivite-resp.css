@@ -1,0 +1,112 @@
+@media(max-width:768px){
+   .cms-id-51 #main .page-content{
+    padding: 0;
+    width: 100%;
+  }
+  .cms-id-51 #wrapper > div > nav{
+    width: 100%;
+    margin-top: 15px !important;
+  }
+  .cms-id-51 #content > div > div > div > div.collectivite-container{
+    padding: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .cms-id-51 #content > div > div > div > div:nth-child(2) > div{
+    padding: 0;
+  }
+  .cms-id-51 #content > div > div > div > div:nth-child(3) > div{
+    padding: 0;
+}
+ .cms-id-51 #content > div > div > div > div:nth-child(2) > div > div{
+    margin-left: 0  !important;
+    margin-right: 0 !important;
+ }
+ .cms-id-51 #content > div > div > div > div:nth-child(3) > div > div{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0;
+ }
+ .cms-id-51 #content > div > div > div > div.collectivite-container > div.spec-collectivite > h3{
+  margin-left: 25px;
+  padding-top: 30px;
+ }
+.cms-id-51 #content > div > div > div > div.collectivite-container > div.spec-collectivite > p:nth-child(2){
+    padding: 0 20px;
+    margin: 0 25px;
+}
+.cms-id-51 #content > div > div > div > div.collectivite-container > div.spec-collectivite > p:nth-child(3){
+  margin-left: 25px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+.cms-id-51 #content > div > div > div > div.collectivite-container > div.spec-collectivite > div > div > div > img{
+  margin: 0;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(1) > div.col-md-2 > div > h3{
+  padding-top: 30px;
+  margin-right: 200px;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(1) > div > div.photo-container > a > img{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(1) > div > div.photo-container > div{
+  top: 50%;
+  left: 40%;
+  line-height: 35px;
+  text-align: center;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div.photo-container > a > img{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(1) > div > div.red-line{
+  background-color: #eb0400;
+  width: 100%;
+  height: 7px;
+  margin-bottom: 20px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div.red-line{
+  background-color: #eb0400;
+  width: 100%;
+  height: 7px;
+  margin-bottom: 20px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(2) > div > div.photo-container > div{
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(3) > div > div.photo-container > div{
+  top: 50%;
+  left: 40%;
+  text-align: center;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(3) > div > div.red-line{
+  background-color: #eb0400;
+  width: 100%;
+  height: 7px;
+  margin-bottom: 50px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(3) > div > div.photo-container > a > img{
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(1){
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(2){
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div:nth-child(3){
+  padding-right: 35px !important;
+  padding-left: 35px !important;
+}
+.cms-id-51 #content > div > div > div > div:nth-child(3) > div > div > div:nth-child(1) > div.col-md-2{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+  }

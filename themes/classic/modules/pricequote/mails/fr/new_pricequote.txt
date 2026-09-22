@@ -1,0 +1,9 @@
+{shop_url}
+
+Bonjour,
+
+Une nouvelle demande de devis a été postée le {date}:
+
+{details_html}
+
+[{shop_name}]({shop_url}) vous remercie de votre confiance.

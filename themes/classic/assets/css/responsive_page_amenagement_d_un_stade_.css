@@ -1,0 +1,127 @@
+@media (max-width: 768px) {
+  /* Set full width for a specific deeply nested div */
+  .cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > div {
+    width: 100% !important;
+  }
+
+  .cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > .zones button {
+    width: 100% !important;
+    font-size: 16px !important;
+    padding: 10px;
+    margin: 15px 0px 0px;
+  }
+
+  .cms-id-19 #content > div > div > div:nth-child(3) > div {
+    padding-left: 0;
+    padding-right: 0;
+}
+  
+  .cms-id-19 #content > div > div > div.insta-nav > div > div.navbar-header > button {
+    background-color: #d5292f;
+    border: none;
+    padding-top: 25px;
+  }
+  .cms-id-19 #content > div > div > div:nth-child(4) > div > div{
+    margin: -30px !important;
+    margin-top: 9px !important;
+  }
+  .cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(1) > div > div{
+  display: none !important;
+}
+.cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > h4{
+    font-size: 20px !important;
+  }
+  .cms-id-19 #content > div > div > div:nth-child(3) > div > div {
+    padding: 30px !important;
+}
+.cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > p{
+    display: block !important;
+        margin-top: 10px !important;
+                /* font: inherit; */
+                /* font-size: medium !important; */
+    }
+  .cms-id-19 .insta-nav span.glyphicon:after {
+    font-size: 50px !important;
+    font-weight: inherit !important;
+    border: none;
+}
+
+  /* Center items inside the 3 sponsor logo containers */
+  .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(1) > div,
+  .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(2) > div,
+  .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(3) > div {
+    justify-items: center;
+  }
+
+  /* Make the main wrapper responsive with side padding */
+  .cms-id-19 #wrapper > div.container {
+    width: 100% !important;
+    padding: 0 25px !important;
+  }
+
+  /* Remove margin from navbar */
+
+
+  .cms-id-19 #cms-id-19  #wrapper > div > nav {
+    margin: auto !important;
+  }
+
+  /* Center content in right sponsor block */
+  .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-4 {
+    justify-items: center !important;
+  }
+
+  /* Sponsor logo 1 (athle) */
+  /*.cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(1) > div > img {
+    width: 33.33% !important;
+    
+  }
+
+  /* Sponsor logo 2 */
+  /* .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(2) > div > img {
+  width: 33.33% !important; 
+    
+  } */
+   .cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div > p > a{
+    font-size: 17px !important;
+
+    display: block !important;
+    margin-top: 10px !important;
+   }
+  /* Sponsor logo 3 (NF EN 12503) */
+  /*.cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div > div:nth-child(3) > div > img {
+    
+    width: 100% !important; /*33.33% ORIGINAL*/
+   
+  
+
+  /* Fix margin and width on specific layout div */
+  .cms-id-19 #content > div > div > div:nth-child(3) > div > div > div:nth-child(2) > div > div {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  /* Center all sponsor logo columns */
+  .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div {
+    justify-items: center !important;
+  }
+.cms-id-19 #content-wrapper #content > div{
+  margin-left: 0;
+  margin-right: 0;
+}
+.cms-id-19 #content-wrapper #content {
+  padding: 0;
+}
+
+
+.cms-id-19 #_desktop_quotation > div.lpqt-block-quotation.lpqt-quotation-preview.inactive > div > a > span.hidden-sm-down ,
+ .cms-id-19 #_desktop_quotation > div.lpqt-block-quotation.lpqt-quotation-preview.inactive > div > a > span.lpqt-quotation-products-count.count-red {
+  display: none !important;
+}
+
+       .cms-id-19 #content > div > div > div.sponso-container > div > div.col-md-8 > div.row > div > div > div{
+      display: flex;
+          place-items: center;
+    }
+}
+

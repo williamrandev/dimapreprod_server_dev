@@ -1,0 +1,40 @@
+@media (max-width: 767px) {    
+    .cms-id-33 .page-cms-33 .sur-mesure-equipement-container {
+        margin: 0!important;
+        max-width: auto!important;
+        height: auto!important;
+    }    
+    .cms-id-33 #wrapper .container .row .js-content-wrapper.col-xs-12 .page-content.page-cms.page-cms-33 .row .center-columns.col-md-12.col-xs-12 .row .sur-mesure-equipement-container .row .col-md-12 .ligne1 .row {
+        display: block!important;
+    }
+    .cms-id-33 #wrapper .container .row .js-content-wrapper.col-xs-12 .page-content.page-cms.page-cms-33 .row .center-columns.col-md-12.col-xs-12 .row .formulaire-footer-containe {
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        max-width: 100%!important;
+    }
+    .cms-id-33 #wrapper .container .row .js-content-wrapper.col-xs-12 .page-content.page-cms.page-cms-33 .row .center-columns.col-md-12.col-xs-12 .row .row .col-md-12 {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .cms-id-33 .page-cms-33 .formulaire-footer-container { 
+        margin-left: 0px!important;
+        margin-right: 0px!important;
+        max-width: auto!important;
+        height: auto!important;    
+    }
+    .cms-id-33 .page-cms-33 .sur-mesure-equipement-container {
+        padding: 30px!important; 
+    }   
+    .cms-id-33 .page-cms-33 .center-columns.col-md-12.col-xs-12 {
+        padding: 0px!important;
+        padding-right: 0px!important;
+        padding-left: 0px!important;
+        width: 100%!important;
+    }
+    .cms-id-33 .page-cms-33 div.container {
+        padding-left: -25px!important;
+        padding-right: -25px!important;
+        width: 100%!important; 
+    } 
+
+}

@@ -1,0 +1,292 @@
+{**
+ * Copyright since 2007 PrestaShop SA and Contributors
+ * PrestaShop is an International Registered Trademark & Property of PrestaShop SA
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License 3.0 (AFL-3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/AFL-3.0
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@prestashop.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future. If you wish to customize PrestaShop for your
+ * needs please refer to https://devdocs.prestashop.com/ for more information.
+ *
+ * @author    PrestaShop SA and Contributors <contact@prestashop.com>
+ * @copyright Since 2007 PrestaShop SA and Contributors
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+ *}
+ {block name='login_form'}
+    <hr/>
+     {block name='login_form_errors'}
+       {include file='_partials/form-errors.tpl' errors=$errors['']}
+     {/block}
+   
+     <div class="login-wrapper">
+       <!-- Section Inscription -->
+   <!-- Section Inscription -->
+  <div class="register-container">
+    <h2 class="register-title">CRÉEZ VOTRE COMPTE</h2>
+
+    <p>Saisissez votre adresse e-mail pour créer votre compte.</p>
+
+    <!-- Alerte ajoutée -->
+    <div id="email-error" style="display:none; background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 10px; margin-bottom: 10px;">
+      <strong>❌ Adresse e-mail invalide.</strong>
+    </div>
+
+    <form id="register-form" action="" method="get">
+      <div class="form-group">
+        <label for="email_register"><strong>Adresse e-mail</strong></label>
+        <input type="email" id="email_register" name="email" required
+              oninvalid="this.setCustomValidity('Veuillez taper votre adresse e-mail')"
+              oninput="this.setCustomValidity('')">
+        <div id="email-error" style="display:none;color:red;">Adresse e-mail invalide</div>
+      </div>
+      <div class="no-account">
+        <button type="submit" class="btn-register">
+          <i class="material-icons" style="font-size:18px;vertical-align:middle;">person</i>
+          {l s='Créer votre compte' d='Shop.Theme.Customeraccount'}
+        </button>
+      </div>
+    </form>
+
+    <script>
+      document.getElementById('register-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const emailInput = document.getElementById('email_register');
+        const errorDiv = document.getElementById('email-error');
+        const emailValue = emailInput.value.trim();
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        if (!emailRegex.test(emailValue)) {
+          errorDiv.style.display = 'block';
+        } else {
+          errorDiv.style.display = 'none';
+          window.location.href = "{$urls.pages.register}?email=" + encodeURIComponent(emailValue);
+        }
+      });
+    </script>
+    <style>
+      /* Style de secours si les classes utilitaires ne fonctionnent pas */
+      .btn-register i {
+        margin-right: 8px;
+        display: inline-block;
+      }
+    </style>
+       <!-- Section Connexion -->
+  </div>
+         <div class="login-container">
+         <h2 class="login-title">DÉJÀ INSCRIT?</h2>
+   
+         <form id="login-form" action="{block name='login_form_actionurl'}{$action}{/block}" method="post" class="custom-login-form">
+           <div class="login-fields">
+                 {block name='login_form_fields'}
+                   {foreach from=$formFields item="field"}
+                     {block name='form_field'}
+                       {if $field.type != 'password-show'}
+                         <div class="form-group">
+                           {form_field field=$field class="form-control custom-input"}
+                         </div>
+                       {/if}
+                     {/block}
+                   {/foreach}
+                 {/block}
+             </div>
+   
+             <!-- CAPTCHA
+             <div class="captcha">
+               <div class="captcha-box">
+                 <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA">
+                 <p>reCAPTCHA <br> Confidentialité - Conditions</p>
+               </div>
+             </div> -->
+   
+           <div class="forgot-password">
+             <a href="{$urls.pages.password}" rel="nofollow">
+               {l s='Mot de passe oublié ?' d='Shop.Theme.Customeraccount'}
+             </a>
+           </div>
+   
+           {block name='login_form_footer'}
+             <footer class="form-footer text-sm-center clearfix">
+               <input type="hidden" name="submitLogin" value="1">
+               {block name='form_buttons'}
+                 <button id="submit-login" class="btn-login" data-link-action="sign-in" type="submit">
+                   <i class="material-icons">lock</i> {l s='Connexion' d='Shop.Theme.Actions'}
+                 </button>
+               {/block}
+             </footer>
+           {/block}
+         </form>
+       </div>
+
+   
+  {/block}
+   
+   <style>
+        /*Custom input*/
+        .custom-input {
+        background-color: #f0f4ff; /* Fond bleu clair */
+        border: 1px solid #ccc;
+        padding: 8px;
+        font-size: 14px;
+      }
+      
+      .form-label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+      }
+        /* Wrapper global */
+        .login-wrapper {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-top: 20px;
+        }
+      
+        /* Style des containers */
+        .register-container {
+          width: 48%;
+          background: #fff;
+          padding: 18px 20px 60px;
+        }
+        .login-container {
+          width: 48%;
+          background: #fff;
+          padding: 20px 20px 51px;
+        }
+      
+        /* Titres */
+        .register-title,
+        .login-title {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #555454;
+        font-size: 18px;
+        padding: 0 0 15px;
+        line-height: normal;
+        border-bottom: 1px solid #d6d4d4;
+        }
+      
+        /* Champs du formulaire */
+        .form-group {
+        margin-bottom: 20px !important;
+        }
+      
+        .form-group label {
+          font-weight: bold;
+          display: block;
+          font-size: 12px;
+          margin-bottom: 5px;
+        }
+      
+        .form-group input {
+        width: 264px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        height: 27px;
+        }
+      
+        /* Bouton d'inscription */
+        .btn-register {
+          /* background: #ff9800; */
+          background-image: url(/themes/classic/assets/img/image_login.svg);
+          color: white;
+          padding: 12px;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-decoration: none;
+        }
+      
+        .btn-register i {
+          margin-right: 10px;
+        }
+      
+        .btn-register a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+        }
+      
+        /* CAPTCHA */
+        .captcha {
+          text-align: center;
+          margin-top: 10px;
+        }
+      
+        .captcha-error {
+          color: red;
+          font-size: 14px;
+          font-weight: bold;
+        }
+      
+        .captcha-box {
+          display: flex;
+          gap: 10px;
+          border: 1px solid #ccc;
+          padding: 10px;
+          background: #f9f9f9;
+          border-radius: 5px;
+          width: 300px;
+        }
+      
+        /* Mot de passe oublié */
+        .forgot-password {
+          
+          margin-bottom: 15px;
+        }
+      
+        .forgot-password a {
+          color: #777;
+      
+        }
+      
+        .forgot-password a:hover {
+          text-decoration: underline;
+        }
+      
+        /* Bouton de connexion */
+        .btn-login {
+          background: #d72626;
+          color: white;
+          padding: 12px;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      
+        .btn-login i {
+          margin-right: 10px;
+        }
+      
+        .btn-login:hover {
+        background: #d5292f;
+        }
+      
+        /* Correction des icônes Font Awesome */
+        i.fa {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+        }
+      
+        .fa-user, .fa-lock {
+          display: inline-block;
+        }
+   </style>

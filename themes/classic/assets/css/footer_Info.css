@@ -1,0 +1,308 @@
+.container-footer {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e3e3e3;
+  margin: 0 18px;
+}
+.bloc-texte-footer {
+  float: left; /* Positionne le bloc à gauche */
+  font-family: "Open Sans";
+  padding: 0px 23px 0px 0px;
+  /* border-radius: 5px; */
+  /* width: 450px; Largeur du bloc */
+  margin-right: 20px; /* Espacement entre les éléments à droite */
+  margin-bottom: 20px; /* Espacement entre le bloc et les autres éléments sous lui */
+  border-right: 1px solid #e3e3e3;
+  text-align: start;
+  font-size: 12px;
+  width: 33.33333%;
+}
+.bloc-texte-footer p {
+  font-size: 12px;
+}
+.img-bloc-footer {
+  width: 50%; /* L'image occupe toute la largeur du bloc */
+  height: auto;
+}
+.texte {
+  margin-bottom: 0;
+}
+.para1 {
+  text-transform: uppercase;
+  color: #0048bd;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "oswald";
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  top: 100px;
+  width: 100%;
+  gap: 40px;
+}
+.para1 ul {
+  width: 12em;
+  display: flex;
+  justify-content: space-between;
+}
+.para-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  font-size: 25px;
+  margin-left: 30px;
+  position: relative;
+  top: 1em;
+}
+.lien-footer {
+  text-decoration: none;
+  color: black !important;
+  font-size: 20px !important;
+}
+#contactinfos {
+  float: right;
+}
+
+#footer .footer-container .container .row {
+  display: flex;
+  padding-top: 10px;
+}
+#footer {
+  background-color: white;
+}
+#footer .footer-container .container .row .links .row {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  text-align: start;
+}
+
+#footer .footer-container .container .row .links .row .wrapper:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+}
+
+#footer .footer-container .container .row .links .row .wrapper:nth-of-type(2) {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+}
+#footer .footer-container .container .row .links .row .wrapper:nth-of-type(3) {
+  grid-column: 3;
+  grid-row: 1;
+  width: 100%;
+}
+#footer .footer-container .container .row .links .row .wrapper:nth-of-type(4) {
+  grid-column: 3;
+  grid-row: 2;
+  width: 100%;
+  bottom: 2em;
+}
+#footer .footer-container .container .row .links {
+  top: 3em;
+}
+#footer .footer-container .container .row .links .row .wrapper p {
+  font-family: "Oswald" !important;
+  cursor: pointer;
+  color: #666666 !important;
+  font-weight: bold !important;
+  font-size: 11px !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  text-align: start;
+}
+#footer .footer-container .container .row .links .row .wrapper li a {
+  color: #8f8f8f !important;
+  font-size: 11px !important;
+  text-transform: uppercase;
+}
+
+#footer .footer-container .container .row .links p {
+  font-family: "Oswald" !important;
+  cursor: pointer;
+  color: #666666 !important;
+  font-weight: bold !important;
+  font-size: 11px !important;
+  margin: 0 !important;
+  text-transform: uppercase;
+  text-align: start;
+}
+
+#footer .footer-container .container .row #contactinfos {
+  top: 4em;
+  text-align: start;
+}
+
+#footer .footer-container .container .row .wrapper .collapse {
+  line-height: 1;
+  margin-top: 10px;
+  font-size: 11px !important;
+  color: #8f8f8f !important;
+  display: block !important;
+}
+
+#footer .footer-container .container .row #contactinfos .collapse {
+  line-height: 1.2;
+  margin-top: 10px;
+  font-size: 11px !important;
+  color: #8f8f8f !important;
+  display: block !important;
+}
+#footer .footer-container .container .row #contactinfos .collapse a {
+  font-size: 11px !important;
+  color: #8f8f8f !important;
+}
+
+.container .row .para1 p {
+  text-transform: uppercase;
+  color: #0048bd;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "oswald";
+}
+
+/* div.footerTexte div.wrapper div.TitleCOllapse::before{
+    content: "Dimasport";
+        font-family : 'Oswald' !important;
+        cursor: pointer;
+        color: #666666 !important;
+        font-weight: bold !important;
+        font-size: 11px !important;
+        margin: 0 !important;
+        text-transform: uppercase;
+        text-align: start;
+}
+
+div.footerTexte div.wrapper div.TitleCOllapse:first-of-type {
+    display: none;
+  }
+div.footerTexte div.wrapper div.TitleCOllapse {
+    color: transparent;    /* Masque tout le texte original */
+/* }
+
+div.footerTexte div.wrapper div.TitleCOllapse a, div.footerTexte div.wrapper div.TitleCOllapse br {
+    color: initial;       /* Réaffiche les liens et sauts de ligne */
+/* div.footerTexte div.wrapper div.TitleCOllapse {
+        position: relative;
+       
+        color: transparent !important;
+        font-size: 0 !important;
+      }
+      
+      div.footerTexte div.wrapper div.TitleCOllapse::before {
+        content: "Dimasport";
+        font-family: 'Oswald' !important;
+        color: #666666 !important;
+        font-weight: bold !important;
+        font-size: 11px !important;
+        text-transform: uppercase;
+        display: block;
+      
+        color: #666666 !important;
+      }
+      
+      div.footerTexte div.wrapper div.TitleCOllapse a,
+      div.footerTexte div.wrapper div.TitleCOllapse br,
+      div.footerTexte div.wrapper div.TitleCOllapse script {
+
+        color: initial !important;
+        font-size: initial !important;
+      }
+      
+      
+      div.footerTexte div.wrapper div.TitleCOllapse br:first-of-type {
+        display: none;
+      } */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #footer
+    .footer-container
+    .container
+    .row
+    .links
+    .row
+    .wrapper:nth-of-type(3) {
+    grid-column: 3;
+    grid-row: 1;
+    width: 80%;
+    margin-left: 35%;
+  }
+  #footer
+    > div.footer-container
+    > div
+    > div.row.footerTexte
+    > div.col-md-6.links
+    > div.row
+    > div:nth-child(4) {
+    bottom: 2.1em !important;
+    margin-left: 35%;
+  }
+
+  #footer
+    .footer-container
+    .container
+    .row
+    .links
+    .row
+    .wrapper:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 1;
+    width: 94%;
+    margin-left: 54%;
+  }
+
+  #footer .footer-container .container .row .links .row .wrapper:first-child {
+    grid-column: 1;
+    grid-row: 1;
+    width: 62%;
+    margin-left: 84%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* On cible précisément le bloc par son ID ou ses classes */
+  #contactinfos.block-contact {
+    /* On le descend de 40px sans toucher au reste du layout */
+    transform: translateY(112.1%) !important;
+
+    /* Sécurité pour s'assurer qu'il ne passe pas derrière un autre bloc */
+    position: relative !important;
+    z-index: 10 !important;
+  }
+
+  #footer .footer-container .container .row #contactinfos {
+    left: 0px !important;
+  }
+
+  #footer .footer-container .bloc-texte-footer {
+    /* On le descend de 40px sans toucher au reste du layout */
+    transform: translateY(30%) !important;
+
+    /* Sécurité pour s'assurer qu'il ne passe pas derrière un autre bloc */
+    position: relative !important;
+    z-index: 10 !important;
+  }
+
+  #footer
+    > div.footer-container
+    > div
+    > div.row.footerTexte
+    > div.para1.block-social.resaux
+    > ul {
+    position: relative;
+    left: -214px !important;
+  }
+
+  #footer
+    > div.footer-container
+    > div
+    > div.row.footerTexte
+    > div.para1.block-social.resaux {
+    position: RELATIVE;
+    bottom: 260px;
+    right: -61px;
+  }
+}

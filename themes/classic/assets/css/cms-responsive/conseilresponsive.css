@@ -1,0 +1,31 @@
+@media (max-width:768px) {
+    .cms-id-17 #content {
+        padding: 0px;
+        
+    }
+    .cms-id-17 .center-columns {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+    .cms-id-17 .col-md-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .cms-id-17 .formulaire-footer-container {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .cms-id-17  #content  div  div  div  div  div  div:nth-child(3)  div {
+        margin-top: 0px !important;
+    }
+    .cms-id-17 #content-wrapper{
+        margin-bottom: 25px;
+    }
+    .page-cms-17  .conseil-container .row h4.sous-titre{
+        text-align: left;
+    }
+
+}
+
+

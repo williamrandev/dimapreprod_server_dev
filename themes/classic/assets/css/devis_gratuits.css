@@ -1,0 +1,78 @@
+.cms-id-9 .page-header {
+  margin-bottom: 0 !important;
+}
+.cms-id-9 .footer-container {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.cms-id-9 #content {
+  padding: 0;
+}
+.cms-id-9 .img-responsive {
+  margin: 50px auto 20px !important;
+}
+.text-align-center {
+  text-align: center;
+}
+.pre-footer span {
+  color: #2765ad;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+}
+.footer-active {
+  color: #d5292f !important;
+}
+.pre-footer img {
+  margin-bottom: 20px !important;
+}
+.cms-id-9 .devis-container {
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 10px 25px !important;
+}
+.cms-id-9 .devis-container h2,
+.cms-id-9 .devis-container h3,
+.cms-id-9 .devis-container h4 {
+  text-align: left;
+  margin-left: 0;
+}
+.cms-id-9 .devis-container h3 {
+  margin-top: 30px;
+  color: #2765ad;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+.devis-container h2 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 400 !important;
+  text-align: left;
+  color: #2765ad;
+  margin-bottom: 0;
+}
+.devis-container .button-container .button-devis {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #fff;
+  background-color: #2765ad;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+html body#cms.lang-fr.country-fr.currency-eur.layout-full-width.page-cms.tax-display-enabled.cms-id-9 main section#wrapper div.container div.row div#content-wrapper.js-content-wrapper.col-xs-12 section#main section#content.page-content.page-cms.page-cms-9 div.devis-container.col-md-12 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+}

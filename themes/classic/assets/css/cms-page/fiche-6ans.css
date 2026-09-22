@@ -1,0 +1,181 @@
+.fiche-6ans-container .col-md-12 a,
+.baby-athle-container .col-md-12 a{
+	color: #777;
+	font-family: arial,Helvetica,sans-serif;
+	font-size:13px;
+}
+.fiche-6ans-container h2.title,
+.baby-athle-container h2.title{
+    font-family: oswald;
+    text-transform: uppercase;
+    color: #2765ad;
+    font-size: 35px;
+    margin-bottom: 18px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.fiche-6ans-container p,
+.baby-athle-container p{
+	color: #000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+#download-fiches {
+    background-color: #d5292f;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: bebas_neuebold;
+    padding: 7px 30px;
+    font-size: 20px!important;
+    margin: 30px 0;
+}
+.fiche-6ans-container .lien,
+.baby-athle-container .lien{
+	margin: 30px 0;
+}
+.fiche-6ans-container .container-pdf,
+.baby-athle-container .container-pdf {
+    width: 18%;
+    display: inline-block;
+    border: 2px solid #e9e9e9;
+    margin: 0 10px;
+}
+.fiche-6ans-container .container-pdf p.first
+{    color: #2765ad;
+    font-family: bebas_neuebold;
+    text-align: center;
+    margin-top: 28px;
+    font-size: 23px;
+    margin-bottom: 18px;
+}
+.fiche-6ans-container .container-pdf .visu-pdf,
+.baby-athle-container .container-pdf .visu-pdf {
+    overflow: hidden;
+    background-color: #d5292f;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+}
+.fiche-ans-container .container-pdf a,
+.baby-athle-container .container-pdf a{
+    background-color: #d5292f;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: bebas_neuebold;
+}
+.fiche-6ans-container .container-pdf p
+ {
+    color: #2765ad!important;
+    font-family: bebas_neuebold;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.fiche-6ans-container .container-pdf,
+.baby-athle-container .container-pdf {
+    width: 18%;
+    display: inline-block;
+    border: 2px solid #e9e9e9;
+    margin: 0 10px;
+}
+.fiche-6ans-container,
+.baby-athle-container {
+    background-color: #fff;
+    padding: 50px;
+}
+.fiche-6ans-container .container-pdf a.eyes,
+.baby-athle-container .container-pdf a.eyes {
+    background-color: #2765ad;
+    padding: 7px 10px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.container-pdf .visu-pdf a.download
+{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: oswald;
+
+}
+#download-fiches:after {
+    content: '';
+    background: url(img/download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.container-pdf a.download:after {
+    content: '';
+    background: url(img/download.png);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 13px;
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+.fiche-6ans-container .container-pdf.last,
+.baby-athle-container .container-pdf:last-child
+ {
+    margin-top: 30px;
+}
+.fiche-6ans-container .banniere,
+.baby-athle-container .banniere{
+    margin:20px 0 0;
+}
+.fiche-6ans-container .banniere p,
+.baby-athle-container .banniere p {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    text-align: center;
+    font-family: bebas_neuebold;
+    color: #2765ad!important;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: left;
+}
+.fiche-6ans-container .banniere p a,
+.baby-athle-container .banniere p a {
+    background-color: #2765ad;
+    color: #ffffff;
+    padding: 13px 15px;
+    margin-left: 10px;
+    font-size: 30px!important;
+    font-family: bebas_neuebold!important;
+    font-weight: 500;
+}
+.page-content.page-cms.page-cms-44,
+.page-content.page-cms.page-cms-45{
+    padding: 0;
+}
+.baby-athle-container .container-pdf p.first{
+    .container-pdf p.first 
+    color: #2765ad;
+    font-family: bebasneue;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+.baby-athle-container .container-pdf p{
+    color: #2765ad;
+    font-family: bebasneue;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.page-content.page-cms.page-cms-46{
+    padding: 0 0 15px 0;
+    }
