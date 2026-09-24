@@ -97,23 +97,28 @@ a img {
 }
 
 .carousel-indicators li {
-    border-radius: 0;
+    border-radius: 50%;
     width: 15px;
     height: 15px;
     margin: 0;
     border: 2px solid #7a7a7a;
+    background-color: #7a7a7a;
 }
 
 .carousel-indicators li.active span {
-    width: 6px;
-    height: 6px;
+    width: 0px;
+    height: 0px;
     display: block;
-    margin: 3px;
-    background-color: #7a7a7a;
+    margin: 0px;
+    background-color: #2563EB;
     transition: 1.5s;
+    border-radius:50%;
 }
 .carousel-indicators li.active {
     width: 15px;
     height: 15px;
-    background-color: transparent;
+    background-color: #2563EB;
+    border:2px solid #2563EB;
+    border-radius:50%;
+
 }  
