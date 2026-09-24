@@ -24,46 +24,9 @@
  *}
 
 {if $homeslider.slides}
-
-
-    <div class="row">
-        <div class="col-md-3" id="nos-produits-sportifs">
-            <div id="nos-produits-sportifs-content">
-                <h2>{if $language.iso_code == 'fr'}Nos produits SPORTIFS{else}Our products{/if}</h2>
-                <ul style="list-style: none; padding: 0; margin: 0;">
-                    {assign var="categories" value=[
-                        ['fr' => '90-gymnastique', 'en' => '90-gymnastics', 'img' => 'gymnastique.png', 'fr_name' => 'gymnastique', 'en_name' => 'Gymnastics'],
-                        ['fr' => '125-athletisme', 'en' => '125-track-and-field', 'img' => 'athletisme.png', 'fr_name' => 'Athlétisme', 'en_name' => 'Track and field'],
-                        ['fr' => '216-dimakid-motricite-et-eveil', 'en' => '216-dimakid-infant-agility', 'img' => 'dimakid-motricite-et-eveil.png', 'fr_name' => 'Dimakid - motricité et éveil', 'en_name' => 'Dimakid - infant agility'],
-                        ['fr' => '246-combat-sports', 'en' => '246-combat-sports', 'img' => 'sports-de-combat.png', 'fr_name' => 'Sports de combat', 'en_name' => 'Combat sports'],
-                        ['fr' => '252-cirque-spectacle', 'en' => '252-circus-and-juggling', 'img' => 'plein-air-loisirs.png', 'fr_name' => 'Plein air - loisirs', 'en_name' => 'Outdoor - leisure'],
-                        ['fr' => '253-dimaclimb-escalade', 'en' => '253-climbing', 'img' => 'escalade.png', 'fr_name' => 'Escalade', 'en_name' => 'Climbing'],
-                        ['fr' => '254-sport-de-raquette', 'en' => '254-racket-sports', 'img' => 'sport-de-raquette.png', 'fr_name' => 'Sports de raquettes', 'en_name' => 'Racket sports'],
-                        ['fr' => '258-le-sur-mesure', 'en' => '258-made-to-measure', 'img' => 'le-sur-mesure.png', 'fr_name' => ' Le-Sur-mesure', 'en_name' => 'Made to measure'],
-                        ['fr' => '259-dimafit-equipement-fitness', 'en' => '259-dimafit-fitness-equipment', 'img' => 'dimafit-equipement-fitness.png', 'fr_name' => 'Dimafit - équipement fitness', 'en_name' => 'Dimafit - fitness equipment'],
-                        ['fr' => '293-sport-sante-et-reeducation', 'en' => '293-sport-and-health-rehabilitation', 'img' => 'sport-sante-reeducation.png', 'fr_name' => 'Sport santé - rééducation', 'en_name' => 'Sport, health and rehabilitation']
-                    ]}
-
-                    {foreach from=$categories item=cat}
-                        {assign var="lang" value=$language.iso_code}
-                        {assign var="url" value="/`$lang`/`$cat[$lang]`"}
-                        <li style="margin-bottom: 0;">
-                            <a href="{$url}" style="display: flex; align-items: center;">
-                                <img src="/themes/default-bootstrap/img/picto-category/{$cat.img}">
-                                {if $lang == 'fr'}{$cat.fr_name}{else}{$cat.en_name}{/if}
-                            </a>
-                        </li>
-                    {/foreach}
-                </ul>
-            </div>
-        </div>
-
-
-
-
-
-        <div id="carousel" data-ride="carousel" class="carousel slide col-md-9" data-interval="{$homeslider.speed}"
-            data-wrap="{(string)$homeslider.wrap}" data-pause="{$homeslider.pause}" data-touch="true">
+    <div class="row interactive-ad-zone">
+        <div id="carousel" data-ride="carousel" class="carousel slide col-md-8" data-interval="{$homeslider.speed}"
+            data-wrap="false" data-pause="{$homeslider.pause}" data-touch="true">
 
             <div class="bx-wrapper" style="max-width: 100%;">
                 <div class="bx-viewport" style="width: 100%; overflow: hidden; position: /*relative; height: 466px; */">
@@ -93,24 +56,27 @@
                             </li>
                         {/foreach}
                     </ul>
-                    <div class="direction" aria-label="{l s='Carousel buttons' d='Shop.Theme.Global'}">
-                        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev"
-                            aria-label="{l s='Previous' d='Shop.Theme.Global'}">
-                            <span class="icon-prev hidden-xs" aria-hidden="true">
-                                <i class="material-icons">&#xE5CB;</i>
-                            </span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel" role="button" data-slide="next"
-                            aria-label="{l s='Next' d='Shop.Theme.Global'}">
-                            <span class="icon-next" aria-hidden="true">
-                                <i class="material-icons">&#xE5CC;</i>
-                            </span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
 
-
+        <aside class="col-md-4 interactive-ad-sidebar" aria-label="{if $language.iso_code == 'fr'}Offres commerciales{else}Commercial offers{/if}">
+            <a class="side-ad side-ad-album side-ad-image" href="https://www.dimapreprod.omega-connect.tech/fr/content/50-catalogues">
+                <img src="/themes/classic/assets/img/pages-annexes/fournitures.jpg"
+                    alt="{if $language.iso_code == 'fr'}DIMA Sport vous accompagne, découvrez notre offre pour les clubs{else}DIMA Sport supports you, discover our club offer{/if}">
+                <span class="side-ad-promotion-label">
+                    <strong>{if $language.iso_code == 'fr'}CATALOGUES{else}CLUB OFFER{/if}</strong>
+                    <span class="side-ad-action">{if $language.iso_code == 'fr'}Découvrir{else}Discover{/if} <span aria-hidden="true">&rarr;</span></span>
+                </span>
+            </a>
+            <a class="side-ad side-ad-promotion" href="https://www.dimapreprod.omega-connect.tech/fr/blog-dimasport.html/post/32-offre-exceptionnelle-tapis-de-gym">
+                <img src="https://www.dimapreprod.omega-connect.tech/modules/ps_imageslider/images/9c3a249542cd5beec967f48001e7b2d9b5377475_SLIDER PROMO TAPIS FR 2025.png"
+                    alt="{if $language.iso_code == 'fr'}Découvrez nos promotions sur les équipements sportifs{else}Discover our sports equipment promotions{/if}">
+                <span class="side-ad-promotion-label">
+                    <strong>{if $language.iso_code == 'fr'}LES PROMOTIONS{else}PROMOTIONS{/if}</strong>
+                    <span class="side-ad-action">{if $language.iso_code == 'fr'}Découvrir{else}Discover{/if} <span aria-hidden="true">&rarr;</span></span>
+                </span>
+            </a>
+        </aside>
     </div>
 {/if}
